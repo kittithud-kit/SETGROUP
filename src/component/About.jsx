@@ -1,6 +1,11 @@
 import React from "react";
 import "./About.css";
 
+import logo from "/src/assets/images/logo.png";
+import Settech from "/src/assets/images/SETTECH.png";
+import setgroupretail from "/src/assets/images/setgroupretail.png";
+import LogoSam from "/src/assets/images/Logo Sam 1.png";
+
 const About = () => {
   return (
     <section id="about">
@@ -24,7 +29,7 @@ const About = () => {
                 <div className="timeline-image img-responsive">
                   <img
                     className="img-responsive imgabout"
-                    src="/public/images/SET_TECH.png"
+                    src={Settech}
                     alt=""
                   />
                 </div>
@@ -52,11 +57,7 @@ const About = () => {
               </li>
               <li>
                 <div className="timeline-image img-responsive">
-                  <img
-                    className="img-responsive imgabout"
-                    src="/public/images/logo.png"
-                    alt=""
-                  />
+                  <img className="img-responsive imgabout" src={logo} alt="" />
                 </div>
                 <div className="timeline-panel">
                   <div className="timeline-heading">
@@ -80,7 +81,7 @@ const About = () => {
                 <div className="timeline-image">
                   <img
                     className="img-responsive imgabout"
-                    src="/public/images/Logo Sam 1.png"
+                    src={LogoSam}
                     alt=""
                   />
                 </div>
@@ -105,7 +106,7 @@ const About = () => {
                 <div className="timeline-image">
                   <img
                     className="img-responsive imgabout"
-                    src="/public/images/set group retail.png"
+                    src={setgroupretail}
                     alt=""
                   />
                 </div>
