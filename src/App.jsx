@@ -19,6 +19,8 @@ import Team from "./component/Team";
 
 import BGVideo from "../src/assets/images/bg-video1.mp4";
 import logo from "../src/assets/images/logo.png";
+import SETTECH from "../src/assets/images/SET_TECH.png";
+import setgroupretail from "../src/assets/images/setgroupretail.png";
 
 const App = () => {
   return (
@@ -37,16 +39,10 @@ const App = () => {
                   <img className="logo-deteil" src={logo}></img>
                   <div>SET GROUP SOLUTION CO.,LTD.</div>
                   <br></br>
-                  <img
-                    className="logo-deteil"
-                    src="/src/assets/images/SET_TECH.png"
-                  ></img>
+                  <img className="logo-deteil" src={SETTECH}></img>
                   <div>SET TECH Ltd..part.</div>
                   <br></br>
-                  <img
-                    className="logo-deteil"
-                    src="/src/assets/images/set group retail.png"
-                  ></img>
+                  <img className="logo-deteil" src={setgroupretail}></img>
                   <div>SET GROUP RETAIL CO.,LTD.</div>
                   <br></br>
                   <img
