@@ -19,7 +19,7 @@ import Team from "./component/Team";
 
 import BGVideo from "../src/assets/images/bg-video1.mp4";
 import logo from "../src/assets/images/logo.png";
-import SETTECH from "../src/assets/images/SET_TECH.png";
+import Settech from "../src/assets/images/SET_TECH.png";
 import setgroupretail from "../src/assets/images/setgroupretail.png";
 
 const App = () => {
@@ -39,7 +39,7 @@ const App = () => {
                   <img className="logo-deteil" src={logo}></img>
                   <div>SET GROUP SOLUTION CO.,LTD.</div>
                   <br></br>
-                  <img className="logo-deteil" src={SETTECH}></img>
+                  <img className="logo-deteil" src={Settech}></img>
                   <div>SET TECH Ltd..part.</div>
                   <br></br>
                   <img className="logo-deteil" src={setgroupretail}></img>
