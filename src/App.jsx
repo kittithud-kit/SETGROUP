@@ -37,13 +37,13 @@ const App = () => {
                   <br></br>
                   <img
                     className="logo-deteil"
-                    src="../src/assets/images/SET_TECH.png"
+                    src="/src/assets/images/SET_TECH.png"
                   ></img>
                   <div>SET TECH Ltd..part.</div>
                   <br></br>
                   <img
                     className="logo-deteil"
-                    src="/assets/images/set group retail.png"
+                    src="/src/assets/images/set group retail.png"
                   ></img>
                   <div>SET GROUP RETAIL CO.,LTD.</div>
                   <br></br>
