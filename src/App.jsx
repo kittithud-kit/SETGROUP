@@ -16,7 +16,7 @@ import Project from "./component/Project";
 import About from "./component/About";
 import ProjectItem from "./component/ProjectItem";
 import Team from "./component/Team";
-
+import logo from "../src/assets/images/logo.png";
 const App = () => {
   return (
     <div id="page-top" className="index">
@@ -31,10 +31,7 @@ const App = () => {
             <div className="intro-head">
               <div className="intro-heading" id="flip">
                 <div>
-                  <img
-                    className="logo-deteil"
-                    src="../src/assets/images/logo.png"
-                  ></img>
+                  <img className="logo-deteil" src={logo}></img>
                   <div>SET GROUP SOLUTION CO.,LTD.</div>
                   <br></br>
                   <img
