@@ -16,6 +16,8 @@ import Project from "./component/Project";
 import About from "./component/About";
 import ProjectItem from "./component/ProjectItem";
 import Team from "./component/Team";
+
+import BGVideo from "../src/assets/images/bg-video1.mp4";
 import logo from "../src/assets/images/logo.png";
 
 const App = () => {
@@ -81,7 +83,7 @@ const App = () => {
           opacity: "1",
         }}
       >
-        <source src="/public/images/bg-video1.mp4" type="video/mp4" />
+        <source src={BGVideo} type="video/mp4" />
       </video>
       {/* <div style={{ position: "relative", zIndex: "1", color: "white" }}></div> */}
       {/* Navigation */}
