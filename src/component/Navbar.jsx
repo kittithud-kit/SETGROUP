@@ -1,6 +1,6 @@
 import "./Navbar.css";
 import React, { useEffect, useRef } from "react";
-import logo from "../src/assets/images/logo.png";
+import logo from "/src/assets/images/logo.png";
 
 const PageNavbar = () => {
   useEffect(() => {
