@@ -1,5 +1,7 @@
 import "./Navbar.css";
 import React, { useEffect, useRef } from "react";
+import logo from "../src/assets/images/logo.png";
+
 const PageNavbar = () => {
   useEffect(() => {
     const $ = window.jQuery;
@@ -48,11 +50,7 @@ const PageNavbar = () => {
             <span className="icon-bar"></span>
           </button>
           <a className="page-scroll" href="#page-top">
-            <img
-              className="imglogo page-scroll "
-              src="/public/images/logo.png"
-              alt="Logo"
-            />
+            <img className="imglogo page-scroll " src={logo} alt="Logo" />
           </a>
         </div>
 
