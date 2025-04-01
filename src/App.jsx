@@ -33,7 +33,7 @@ const App = () => {
                 <div>
                   <img
                     className="logo-deteil"
-                    src="/public/images/logo.png"
+                    src="../../public/images/logo.png"
                   ></img>
                   <div>SET GROUP SOLUTION CO.,LTD.</div>
                   <br></br>
