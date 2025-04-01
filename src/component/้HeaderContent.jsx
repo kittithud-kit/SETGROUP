@@ -140,13 +140,13 @@ const HeaderContent = () => {
 
   return (
     <>
-      <HeroSection setBodyClass={setBodyClass} />
-      {/* <AboutSection setBodyClass={setBodyClass} />
-      <ContactSection setBodyClass={setBodyClass} /> */}
+      <HeroSection setBodyclassName={setBodyClass} />
+      {/* <AboutSection setBodyclassName={setBodyClass} />
+      <ContactSection setBodyclassName={setBodyClass} /> */}
       <SectionTemplate
         title="executive"
-        closeClass="executive-close"
-        setBodyClass={setBodyClass}
+        closeclassName="executive-close"
+        setBodyclassName={setBodyClass}
       >
         <div className="img-allMD">
           <div className="img-MD">
@@ -161,8 +161,8 @@ const HeaderContent = () => {
       </SectionTemplate>
       <SectionTemplate
         title="location"
-        closeClass="location-close"
-        setBodyClass={setBodyClass}
+        closeclassName="location-close"
+        setBodyclassName={setBodyClass}
       >
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3873.167167285039!2d100.51327557469693!3d13.888950686517317!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e284bb7c6b6b63%3A0x2499f1d012380ea9!2z4Lia4LiI4LiBLiDguYDguIvguYfguJcg4LiB4Lij4Li44LmK4LibIOC5guC4i-C4peC4ueC4iuC4seC5iOC4mQ!5e0!3m2!1sth!2sth!4v1723438259225!5m2!1sth!2sth"
@@ -176,8 +176,8 @@ const HeaderContent = () => {
       </SectionTemplate>
       <SectionTemplate
         title="description"
-        closeClass="description-close"
-        setBodyClass={setBodyClass}
+        closeclassName="description-close"
+        setBodyclassName={setBodyClass}
       >
         <div className="sethome">
           <h5 className="text-home">

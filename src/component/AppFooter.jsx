@@ -8,13 +8,13 @@ const PageFooter = () => {
         <div className="textcontact">
           <h2>Contact</h2>
         </div>
-        <div class="container">
-          <div class="footer-cta pt-5 pb-5">
-            <div class="row">
-              <div class="col-xl-4 col-md-4 mb-30">
-                <div class="single-cta">
-                  <i class="fas fa-map-marker-alt"></i>
-                  <div class="cta-text">
+        <div className="container">
+          <div className="footer-cta pt-5 pb-5">
+            <div className="row">
+              <div className="col-xl-4 col-md-4 mb-30">
+                <div className="single-cta">
+                  <i className="fas fa-map-marker-alt"></i>
+                  <div className="cta-text">
                     <h4>Find us</h4>
                     <span>
                       62/174 Moo 3,Prasertislam 6 Tiwanon Rd.,
@@ -33,10 +33,10 @@ const PageFooter = () => {
                   </a>
                 </div>
               </div>
-              <div class="col-xl-4 col-md-4 mb-30">
-                <div class="single-cta">
-                  <i class="fas fa-phone"></i>
-                  <div class="cta-text">
+              <div className="col-xl-4 col-md-4 mb-30">
+                <div className="single-cta">
+                  <i className="fas fa-phone"></i>
+                  <div className="cta-text">
                     <h4>Call us</h4>
                     <span>
                       Tel : 02-9603971-3
@@ -48,10 +48,10 @@ const PageFooter = () => {
                   </div>
                 </div>
               </div>
-              <div class="col-xl-4 col-md-4 mb-30">
-                <div class="single-cta">
-                  <i class="far fa-envelope-open"></i>
-                  <div class="cta-text">
+              <div className="col-xl-4 col-md-4 mb-30">
+                <div className="single-cta">
+                  <i className="far fa-envelope-open"></i>
+                  <div className="cta-text">
                     <h4>Mail us</h4>
                     <span>
                       <div>
@@ -69,11 +69,11 @@ const PageFooter = () => {
               </div>
             </div>
           </div>
-          <div class="footer-content pt-5 pb-5">
-            <div class="row">
-              <div class="col-xl-4 col-lg-4 mb-50">
-                <div class="footer-widget">
-                  <div class="footer-logo">
+          <div className="footer-content pt-5 pb-5">
+            <div className="row">
+              <div className="col-xl-4 col-lg-4 mb-50">
+                <div className="footer-widget">
+                  <div className="footer-logo">
                     <img src="/public/images/logo.png" />
                     <img src="/public/images/SET_TECH.png" />
                     <img
@@ -82,36 +82,36 @@ const PageFooter = () => {
                     />
                     <img src="/public/images/set group retail.png" />
                   </div>
-                  <div class="footer-text">
+                  <div className="footer-text">
                     {/* <p>
                       Lorem ipsum dolor sit amet, consec tetur adipisicing elit,
                       sed do eiusmod tempor incididuntut consec tetur
                       adipisicing elit,Lorem ipsum dolor sit amet.
                     </p> */}
                   </div>
-                  <div class="footer-social-icon">
+                  <div className="footer-social-icon">
                     <span>Follow us</span>
                     <a
                       href="https://www.facebook.com/profile.php?id=100063661576367"
                       target="_blank"
                     >
-                      <i class="fab fa-facebook-f facebook-bg"></i>
+                      <i className="fab fa-facebook-f facebook-bg"></i>
                     </a>
                     {/* <a href="#">
-                      <i class="fab fa-twitter twitter-bg"></i>
+                      <i className="fab fa-twitter twitter-bg"></i>
                     </a>
                     <a href="#">
-                      <i class="fab fa-google-plus-g google-bg"></i>
+                      <i className="fab fa-google-plus-g google-bg"></i>
                     </a> */}
                   </div>
                 </div>
               </div>
-              <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
-                <div class="footer-widget">
-                  <div class="footer-widget-heading">
+              <div className="col-xl-4 col-lg-4 col-md-6 mb-30">
+                <div className="footer-widget">
+                  <div className="footer-widget-heading">
                     <h3>ABOUT SETGROUP</h3>
                   </div>
-                  <div class="footer-text mb-25">
+                  <div className="footer-text mb-25">
                     <p>
                       &nbsp;&nbsp;&nbsp;&nbsp;Your company provides design and
                       installation of telecommunication network systems,
@@ -126,22 +126,22 @@ const PageFooter = () => {
                   </div>
                 </div>
               </div>
-              <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
-                <div class="footer-widget">
-                  <div class="footer-widget-heading">
+              <div className="col-xl-4 col-lg-4 col-md-6 mb-50">
+                <div className="footer-widget">
+                  <div className="footer-widget-heading">
                     <h3>Subscribe</h3>
                   </div>
-                  <div class="footer-text mb-25">
+                  <div className="footer-text mb-25">
                     <p>
                       Don’t miss to subscribe to our new feeds, kindly fill the
                       form below.
                     </p>
                   </div>
-                  <div class="subscribe-form">
+                  <div className="subscribe-form">
                     <form action="#">
                       <input type="text" placeholder="Email Address" />
                       <button>
-                        <i class="fab fa-telegram-plane"></i>
+                        <i className="fab fa-telegram-plane"></i>
                       </button>
                     </form>
                   </div>
@@ -151,16 +151,16 @@ const PageFooter = () => {
           </div>
         </div>
       </section>
-      <div class="copyright-area">
-        <div class="container">
-          <div class="row">
-            <div class="col-xl-6 col-lg-6 text-center text-lg-left">
-              <div class="copyright-text">
+      <div className="copyright-area">
+        <div className="container">
+          <div className="row">
+            <div className="col-xl-6 col-lg-6 text-center text-lg-left">
+              <div className="copyright-text">
                 <p>Setgroupsolution @2025 All rights reserved.</p>
               </div>
             </div>
-            <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
-              <div class="footer-menu">
+            <div className="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+              <div className="footer-menu">
                 <ul>
                   <li>
                     <a href="#page-top">Home</a>
