@@ -1,6 +1,12 @@
 import { Link } from "react-router-dom";
 import "./AppFooter.css";
 
+import locationphoto from "/src/assets/images/location.jpg";
+import logo from "/src/assets/images/logo.png";
+import Settech from "/src/assets/images/SETTECH.png";
+import setgroupretail from "/src/assets/images/setgroupretail.png";
+import LogoSam from "/src/assets/images/Logo Sam 1.png";
+
 const PageFooter = () => {
   return (
     <footer className="footer-section">
@@ -26,10 +32,7 @@ const PageFooter = () => {
                     href="https://www.google.co.th/maps/dir//62%2F174+%E0%B8%8B%E0%B8%AD%E0%B8%A2+%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%AA%E0%B8%A3%E0%B8%B4%E0%B8%90%E0%B8%AD%E0%B8%B4%E0%B8%AA%E0%B8%A5%E0%B8%B2%E0%B8%A1+6+%E0%B8%95%E0%B8%B3%E0%B8%9A%E0%B8%A5%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94+%E0%B8%AD%E0%B8%B3%E0%B9%80%E0%B8%A0%E0%B8%AD%E0%B8%9B%E0%B8%B2%E0%B8%81%E0%B9%80%E0%B8%81%E0%B8%A3%E0%B9%87%E0%B8%94+%E0%B8%99%E0%B8%99%E0%B8%97%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5+11120/@13.8889369,100.4334487,26090m/data=!3m1!1e3!4m8!4m7!1m0!1m5!1m1!1s0x30e284bb7c6b6b63:0x2499f1d012380ea9!2m2!1d100.5158505!2d13.8889507?entry=ttu&g_ep=EgoyMDI1MDMxNi4wIKXMDSoASAFQAw%3D%3D"
                     target="_blank"
                   >
-                    <img
-                      className="img-location"
-                      src="/public/images/location.jpg"
-                    ></img>
+                    <img className="img-location" src={locationphoto}></img>
                   </a>
                 </div>
               </div>
@@ -74,13 +77,10 @@ const PageFooter = () => {
               <div className="col-xl-4 col-lg-4 mb-50">
                 <div className="footer-widget">
                   <div className="footer-logo">
-                    <img src="/public/images/logo.png" />
-                    <img src="/public/images/SET_TECH.png" />
-                    <img
-                      className="footer-logo1"
-                      src="/public/images/Logo Sam 1.png"
-                    />
-                    <img src="/public/images/set group retail.png" />
+                    <img src={logo} />
+                    <img src={Settech} />
+                    <img className="footer-logo1" src={LogoSam} />
+                    <img src={setgroupretail} />
                   </div>
                   <div className="footer-text">
                     {/* <p>
