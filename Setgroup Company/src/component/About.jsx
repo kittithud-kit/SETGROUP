@@ -80,7 +80,7 @@ const About = () => {
                 <div className="timeline-image">
                   <img
                     className="img-responsive imgabout"
-                    src="/public/images/logo.png"
+                    src="/public/images/Logo Sam 1.png"
                     alt=""
                   />
                 </div>

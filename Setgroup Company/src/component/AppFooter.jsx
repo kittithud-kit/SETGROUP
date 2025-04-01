@@ -76,7 +76,10 @@ const PageFooter = () => {
                   <div class="footer-logo">
                     <img src="/public/images/logo.png" />
                     <img src="/public/images/SET_TECH.png" />
-                    <img src="/public/images/logo.png" />
+                    <img
+                      className="footer-logo1"
+                      src="/public/images/Logo Sam 1.png"
+                    />
                     <img src="/public/images/set group retail.png" />
                   </div>
                   <div class="footer-text">

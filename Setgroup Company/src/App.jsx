@@ -50,8 +50,8 @@ const App = () => {
                   <div>SET GROUP RETAIL CO.,LTD.</div>
                   <br></br>
                   <img
-                    className="logo-deteil"
-                    src="/public/images/logo.png"
+                    className="logo-deteil1"
+                    src="/public/images/Logo Sam 1.png"
                   ></img>
                   <div>SAM TECHNOLOGY SUPPORT CO.,LTD.</div>
                 </div>

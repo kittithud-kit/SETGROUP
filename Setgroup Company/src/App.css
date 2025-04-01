@@ -304,6 +304,11 @@ header .intro-text .intro-heading {
   width: 100px;
 }
 
+.logo-deteil1 {
+  margin-right: 10px;
+  width: 70px;
+}
+
 /* .icondata {
   margin: 10px;
   transition: 0.4s; 
