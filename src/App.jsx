@@ -21,6 +21,7 @@ import BGVideo from "/src/assets/images/bg-video1.mp4";
 import logo from "/src/assets/images/logo.png";
 import Settech from "/src/assets/images/SETTECH.png";
 import setgroupretail from "/src/assets/images/setgroupretail.png";
+import LogoSam from "/src/assets/images/Logo Sam 1.png";
 
 const App = () => {
   return (
@@ -45,10 +46,7 @@ const App = () => {
                   <img className="logo-deteil" src={setgroupretail}></img>
                   <div>SET GROUP RETAIL CO.,LTD.</div>
                   <br></br>
-                  <img
-                    className="logo-deteil1"
-                    src="../src/assets/images/Logo Sam 1.png"
-                  ></img>
+                  <img className="logo-deteil1" src={LogoSam}></img>
                   <div>SAM TECHNOLOGY SUPPORT CO.,LTD.</div>
                 </div>
               </div>
