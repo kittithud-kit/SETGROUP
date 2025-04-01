@@ -19,7 +19,7 @@ import Team from "./component/Team";
 
 import BGVideo from "/src/assets/images/bg-video1.mp4";
 import logo from "/src/assets/images/logo.png";
-import Settech from "/src/assets/images/SET_TECH.png";
+import Settech from "/src/assets/images/SETTECH.png";
 import setgroupretail from "/src/assets/images/setgroupretail.png";
 
 const App = () => {
