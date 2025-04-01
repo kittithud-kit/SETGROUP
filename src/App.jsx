@@ -33,13 +33,13 @@ const App = () => {
                 <div>
                   <img
                     className="logo-deteil"
-                    src="../../public/images/logo.png"
+                    src="../src/assets/images/logo.png"
                   ></img>
                   <div>SET GROUP SOLUTION CO.,LTD.</div>
                   <br></br>
                   <img
                     className="logo-deteil"
-                    src="../public/images/SET_TECH.png"
+                    src="../src/assets/images/SET_TECH.png"
                   ></img>
                   <div>SET TECH Ltd..part.</div>
                   <br></br>
@@ -51,7 +51,7 @@ const App = () => {
                   <br></br>
                   <img
                     className="logo-deteil1"
-                    src="/public/images/Logo Sam 1.png"
+                    src="../src/assets/images/Logo Sam 1.png"
                   ></img>
                   <div>SAM TECHNOLOGY SUPPORT CO.,LTD.</div>
                 </div>
