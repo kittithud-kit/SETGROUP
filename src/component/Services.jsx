@@ -1,6 +1,12 @@
 import React from "react";
 import "./Services.css";
 
+import Consult from "/src/assets/images/Service/Consult.png";
+import survey from "/src/assets/images/Service/survey.png";
+import planing from "/src/assets/images/Service/planing.png";
+import installation from "/src/assets/images/Service/installation.png";
+import maintenance from "/src/assets/images/Service/maintenance.png";
+
 const Services = () => {
   return (
     <section id="services">
@@ -29,47 +35,32 @@ const Services = () => {
         <div className="row text-center">
           <div className="col-md-4">
             <span className="fa-stack fa-4x">
-              <img
-                className="Consultpng"
-                src="/public/images/Service/Consult.png"
-              />
+              <img className="Consultpng" src={Consult} />
             </span>
             <h4 className="service-heading">Consult</h4>
           </div>
           <div className="col-md-4">
             <span className="fa-stack fa-4x">
-              <img
-                className="Consultpng"
-                src="/public/images/Service/survey.png"
-              />
+              <img className="Consultpng" src={survey} />
             </span>
             <h4 className="service-heading">Survey</h4>
           </div>
 
           <div className="col-md-4">
             <span className="fa-stack fa-4x">
-              <img
-                className="Consultpng"
-                src="/public/images/Service/planing.png"
-              />
+              <img className="Consultpng" src={planing} />
             </span>
             <h4 className="service-heading">Planing</h4>
           </div>
           <div className="col-md-4">
             <span className="fa-stack fa-4x">
-              <img
-                className="Consultpng"
-                src="/public/images/Service/installation.png"
-              />
+              <img className="Consultpng" src={installation} />
             </span>
             <h4 className="service-heading">Installation</h4>
           </div>
           <div className="col-md-4">
             <span className="fa-stack fa-4x">
-              <img
-                className="Consultpng"
-                src="/public/images/Service/maintenance.png"
-              />
+              <img className="Consultpng" src={maintenance} />
             </span>
             <h4 className="service-heading">Maintenance</h4>
           </div>
