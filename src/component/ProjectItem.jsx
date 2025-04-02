@@ -50,7 +50,21 @@ const ProjectItem = () => {
                     alt=""
                   />
 
-                  <p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+                  <p>
+                    Building a large conference room requires careful
+                    consideration of structure, functionality, and technology to
+                    accommodate many participants and various uses. The design
+                    should focus on room size, seating arrangement, and
+                    materials that enhance sound quality. The audiovisual system
+                    must include large displays and clear sound, with support
+                    for video conferencing. A high-speed Wi-Fi network and
+                    sufficient connectivity ports are essential, along with
+                    smart control systems. Lighting should be adjustable, and
+                    materials should create a comfortable atmosphere.
+                    Additionally, security measures like CCTV and fire
+                    prevention systems are necessary to ensure a safe and
+                    efficient conference environment.
+                  </p>
 
                   <button
                     type="button"
@@ -87,7 +101,19 @@ const ProjectItem = () => {
                   <h2>ATMS-FD</h2>
                   <p className="item-intro text-muted">value 9,999,999 bath</p>
                   <img className="img-responsive-item" src={ATMS} alt="" />
-                  <p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+                  <p>
+                    The ATMS (Advanced Traffic Management System) is an
+                    intelligent traffic management system that utilizes
+                    technology to improve traffic efficiency, reduce congestion,
+                    and enhance road safety. It operates using sensors,
+                    surveillance cameras, and AI to analyze real-time traffic
+                    data. This information is then sent to a control center to
+                    adjust traffic signals, manage lane usage, and provide
+                    incident alerts. ATMS helps minimize travel time, reduce
+                    carbon emissions, and improve overall transportation
+                    convenience. It is ideal for metropolitan areas facing heavy
+                    traffic and requiring an efficient management system.
+                  </p>
 
                   <button
                     type="button"
@@ -124,7 +150,18 @@ const ProjectItem = () => {
                   <h2>TOLL</h2>
                   <p className="item-intro text-muted">value 9,999,999 bath</p>
                   <img className="img-responsive-item" src={TOLL} alt="" />
-                  <p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+                  <p>
+                    The Toll System is an advanced technology used for efficient
+                    toll collection on roads, expressways, and bridges, reducing
+                    congestion and enhancing convenience for drivers. This
+                    system utilizes RFID, Automatic Number Plate Recognition
+                    (ANPR), or Electronic Toll Collection (ETC) to verify and
+                    charge toll fees without requiring vehicles to stop. This
+                    reduces travel time and lowers pollution caused by traffic
+                    congestion. The Toll System helps generate revenue for
+                    infrastructure projects and enables governments or private
+                    entities to manage road networks more effectively.
+                  </p>
 
                   <button
                     type="button"
@@ -162,7 +199,17 @@ const ProjectItem = () => {
                   <p className="item-intro text-muted">value 9,999,999 bath</p>
                   <img className="img-responsive-item" src={VMS} />
 
-                  <p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+                  <p>
+                    The VMS (Variable Message Sign System) is an intelligent
+                    signage system used to display real-time traffic
+                    information, alerts, and warnings to drivers. This system is
+                    connected to a traffic control center and can update
+                    messages based on traffic conditions, accidents, or weather
+                    changes, helping to reduce congestion and enhance road
+                    safety. VMS is commonly installed on expressways, highways,
+                    and urban roads to provide crucial information, allowing
+                    drivers to plan their routes more efficiently.
+                  </p>
 
                   <button
                     type="button"
@@ -200,7 +247,18 @@ const ProjectItem = () => {
                   <p className="item-intro text-muted">value 9,999,999 bath</p>
                   <img className="img-responsive-item" src={Oracle} alt="" />
 
-                  <p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+                  <p>
+                    Oracle is a widely used database system for managing
+                    large-scale data within organizations. It utilizes SQL
+                    (Structured Query Language) to efficiently and securely
+                    access and process information. Oracle offers features that
+                    support various functions such as business data management,
+                    data analysis, and the development of complex applications.
+                    It is scalable, making it suitable for organizations of
+                    different sizes and needs. With its stability and high
+                    security, Oracle is ideal for organizations that require
+                    managing complex and critical data efficiently.
+                  </p>
 
                   <button
                     type="button"
@@ -234,7 +292,7 @@ const ProjectItem = () => {
             <div className="row">
               <div className="col-lg-8 col-lg-offset-2">
                 <div className="modal-body">
-                  <h2>ETS</h2>
+                  <h2>Emergency Telephone System</h2>
                   <p className="item-intro text-muted">value 9,999,999 bath</p>
                   <img className="img-responsive-item" src={ETS} alt="" />
                   <img
@@ -242,7 +300,19 @@ const ProjectItem = () => {
                     src="/public/images/Project/ระบบบริหารกล้องวงจรปิด/LINE_ALBUM_ระบบบริหารจัดการสำหรับกล้องวงจรปิด_250401.jpg"
                     alt=""
                   />
-                  <p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+                  <p>
+                    The Emergency Telephone System is a communication system
+                    designed for reporting urgent incidents such as accidents,
+                    fires, or other emergencies. It connects directly to control
+                    centers or relevant authorities for immediate assistance.
+                    This system is commonly installed in public areas such as
+                    highways, train stations, and critical buildings, allowing
+                    people to request help quickly. It also supports automated
+                    functions like location identification and call recording.
+                    The Emergency Telephone System enhances emergency response
+                    efficiency, reduces reaction time, and improves public
+                    safety.
+                  </p>
 
                   <button
                     type="button"

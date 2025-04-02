@@ -46,7 +46,7 @@ const Project = () => {
             </a>
             <div className="portfolio-caption">
               <h4>Central Lab</h4>
-              <h6 className="projectbath">value 9,999,999 bath</h6>
+              <h6 className="projectbath">value 22,899,000 bath</h6>
             </div>
           </div>
 
@@ -145,7 +145,7 @@ const Project = () => {
               <img src={ETS} className="img-responsive" alt="" />
             </a>
             <div className="portfolio-caption">
-              <h4>ETS</h4>
+              <h4>Emergency Telephone System</h4>
               <h6 className="projectbath">value 9,999,999 bath</h6>
             </div>
           </div>
