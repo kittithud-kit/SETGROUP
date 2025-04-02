@@ -3,11 +3,11 @@ import "./ProjectHighlight.css";
 
 const ProjectHighlight = () => {
   return (
-    <section id="portfolio" className="bg-light-gray">
+    <section id="ProjectHighlight" className="bg-light-gray">
       <div className="container">
         <div className="row">
           <div className="col-lg-12 text-center">
-            <h2 className="section-heading">Project Raference</h2>
+            <h2 className="section-heading">ProjectHighlight</h2>
             <h3 className="section-subheading text-muted">
               Past works from the past to the present.
             </h3>
@@ -15,14 +15,14 @@ const ProjectHighlight = () => {
         </div>
         <div className="row">
           {/* Project Modal 1 */}
-          <div className="col-md-4 col-sm-6 portfolio-item">
+          <div className="col-md-4 col-sm-6 ProjectHighlight-item">
             <a
-              href="#portfolioModal1"
-              className="portfolio-link"
+              href="#ProjectHighlightModal1"
+              className="ProjectHighlight-link"
               data-toggle="modal"
             >
-              <div className="portfolio-hover">
-                <div className="portfolio-hover-content">
+              <div className="ProjectHighlight-hover">
+                <div className="ProjectHighlight-hover-content">
                   <i className="fa fa-plus fa-3x"></i>
                 </div>
               </div>
@@ -32,20 +32,20 @@ const ProjectHighlight = () => {
                 alt=""
               />
             </a>
-            <div className="portfolio-caption">
+            <div className="ProjectHighlight-caption">
               <h4>CCTV Service Area</h4>
             </div>
           </div>
 
           {/* Project Modal 2 */}
-          <div className="col-md-4 col-sm-6 portfolio-item">
+          <div className="col-md-4 col-sm-6 ProjectHighlight-item">
             <a
-              href="#portfolioModal2"
-              className="portfolio-link"
+              href="#ProjectHighlightModal2"
+              className="ProjectHighlight-link"
               data-toggle="modal"
             >
-              <div className="portfolio-hover">
-                <div className="portfolio-hover-content">
+              <div className="ProjectHighlight-hover">
+                <div className="ProjectHighlight-hover-content">
                   <i className="fa fa-plus fa-3x"></i>
                 </div>
               </div>
@@ -55,20 +55,20 @@ const ProjectHighlight = () => {
                 alt=""
               />
             </a>
-            <div className="portfolio-caption">
+            <div className="ProjectHighlight-caption">
               <h4>CCTV Weige Station</h4>
             </div>
           </div>
 
           {/* Project Modal 3 */}
-          <div className="col-md-4 col-sm-6 portfolio-item">
+          <div className="col-md-4 col-sm-6 ProjectHighlight-item">
             <a
-              href="#portfolioModal3"
-              className="portfolio-link"
+              href="#ProjectHighlightModal3"
+              className="ProjectHighlight-link"
               data-toggle="modal"
             >
-              <div className="portfolio-hover">
-                <div className="portfolio-hover-content">
+              <div className="ProjectHighlight-hover">
+                <div className="ProjectHighlight-hover-content">
                   <i className="fa fa-plus fa-3x"></i>
                 </div>
               </div>
@@ -78,20 +78,20 @@ const ProjectHighlight = () => {
                 alt=""
               />
             </a>
-            <div className="portfolio-caption">
+            <div className="ProjectHighlight-caption">
               <h4>Kingpin</h4>
             </div>
           </div>
 
           {/* Project Modal 4 */}
-          <div className="col-md-4 col-sm-6 portfolio-item">
+          <div className="col-md-4 col-sm-6 ProjectHighlight-item">
             <a
-              href="#portfolioModal4"
-              className="portfolio-link"
+              href="#ProjectHighlightModal4"
+              className="ProjectHighlight-link"
               data-toggle="modal"
             >
-              <div className="portfolio-hover">
-                <div className="portfolio-hover-content">
+              <div className="ProjectHighlight-hover">
+                <div className="ProjectHighlight-hover-content">
                   <i className="fa fa-plus fa-3x"></i>
                 </div>
               </div>
@@ -101,20 +101,20 @@ const ProjectHighlight = () => {
                 alt=""
               />
             </a>
-            <div className="portfolio-caption">
+            <div className="ProjectHighlight-caption">
               <h4>Central Leb</h4>
             </div>
           </div>
 
           {/* Project Modal 5 */}
-          <div className="col-md-4 col-sm-6 portfolio-item">
+          <div className="col-md-4 col-sm-6 ProjectHighlight-item">
             <a
-              href="#portfolioModal5"
-              className="portfolio-link"
+              href="#ProjectHighlightModal5"
+              className="ProjectHighlight-link"
               data-toggle="modal"
             >
-              <div className="portfolio-hover">
-                <div className="portfolio-hover-content">
+              <div className="ProjectHighlight-hover">
+                <div className="ProjectHighlight-hover-content">
                   <i className="fa fa-plus fa-3x"></i>
                 </div>
               </div>
@@ -124,20 +124,20 @@ const ProjectHighlight = () => {
                 alt=""
               />
             </a>
-            <div className="portfolio-caption">
+            <div className="ProjectHighlight-caption">
               <h4>Fiber Optic M7</h4>
             </div>
           </div>
 
           {/* Project Modal 6 */}
-          <div className="col-md-4 col-sm-6 portfolio-item">
+          <div className="col-md-4 col-sm-6 ProjectHighlight-item">
             <a
-              href="#portfolioModal6"
-              className="portfolio-link"
+              href="#ProjectHighlightModal6"
+              className="ProjectHighlight-link"
               data-toggle="modal"
             >
-              <div className="portfolio-hover">
-                <div className="portfolio-hover-content">
+              <div className="ProjectHighlight-hover">
+                <div className="ProjectHighlight-hover-content">
                   <i className="fa fa-plus fa-3x"></i>
                 </div>
               </div>
@@ -147,20 +147,20 @@ const ProjectHighlight = () => {
                 alt=""
               />
             </a>
-            <div className="portfolio-caption">
+            <div className="ProjectHighlight-caption">
               <h4>CCTV Management System</h4>
             </div>
           </div>
 
           {/* Project Modal 7 */}
-          <div className="col-md-4 col-sm-6 portfolio-item">
+          <div className="col-md-4 col-sm-6 ProjectHighlight-item">
             <a
-              href="#portfolioModal7"
-              className="portfolio-link"
+              href="#ProjectHighlightModal7"
+              className="ProjectHighlight-link"
               data-toggle="modal"
             >
-              <div className="portfolio-hover">
-                <div className="portfolio-hover-content">
+              <div className="ProjectHighlight-hover">
+                <div className="ProjectHighlight-hover-content">
                   <i className="fa fa-plus fa-3x"></i>
                 </div>
               </div>
@@ -170,20 +170,20 @@ const ProjectHighlight = () => {
                 alt=""
               />
             </a>
-            <div className="portfolio-caption">
+            <div className="ProjectHighlight-caption">
               <h4>Dreams</h4>
             </div>
           </div>
 
           {/* Project Modal 8 */}
-          <div className="col-md-4 col-sm-6 portfolio-item">
+          <div className="col-md-4 col-sm-6 ProjectHighlight-item">
             <a
-              href="#portfolioModal8"
-              className="portfolio-link"
+              href="#ProjectHighlightModal8"
+              className="ProjectHighlight-link"
               data-toggle="modal"
             >
-              <div className="portfolio-hover">
-                <div className="portfolio-hover-content">
+              <div className="ProjectHighlight-hover">
+                <div className="ProjectHighlight-hover-content">
                   <i className="fa fa-plus fa-3x"></i>
                 </div>
               </div>
@@ -193,20 +193,20 @@ const ProjectHighlight = () => {
                 alt=""
               />
             </a>
-            <div className="portfolio-caption">
+            <div className="ProjectHighlight-caption">
               <h4>Dreams</h4>
             </div>
           </div>
 
           {/* Project Modal 9 */}
-          <div className="col-md-4 col-sm-6 portfolio-item">
+          <div className="col-md-4 col-sm-6 ProjectHighlight-item">
             <a
-              href="#portfolioModal9"
-              className="portfolio-link"
+              href="#ProjectHighlightModal9"
+              className="ProjectHighlight-link"
               data-toggle="modal"
             >
-              <div className="portfolio-hover">
-                <div className="portfolio-hover-content">
+              <div className="ProjectHighlight-hover">
+                <div className="ProjectHighlight-hover-content">
                   <i className="fa fa-plus fa-3x"></i>
                 </div>
               </div>
@@ -216,20 +216,20 @@ const ProjectHighlight = () => {
                 alt=""
               />
             </a>
-            <div className="portfolio-caption">
+            <div className="ProjectHighlight-caption">
               <h4>Dreams</h4>
             </div>
           </div>
 
           {/* Project Modal 10 */}
-          <div className="col-md-4 col-sm-6 portfolio-item">
+          <div className="col-md-4 col-sm-6 ProjectHighlight-item">
             <a
-              href="#portfolioModal10"
-              className="portfolio-link"
+              href="#ProjectHighlightModal10"
+              className="ProjectHighlight-link"
               data-toggle="modal"
             >
-              <div className="portfolio-hover">
-                <div className="portfolio-hover-content">
+              <div className="ProjectHighlight-hover">
+                <div className="ProjectHighlight-hover-content">
                   <i className="fa fa-plus fa-3x"></i>
                 </div>
               </div>
@@ -239,20 +239,20 @@ const ProjectHighlight = () => {
                 alt=""
               />
             </a>
-            <div className="portfolio-caption">
+            <div className="ProjectHighlight-caption">
               <h4>Dreams</h4>
             </div>
           </div>
 
           {/* Project Modal 11 */}
-          <div className="col-md-4 col-sm-6 portfolio-item">
+          <div className="col-md-4 col-sm-6 ProjectHighlight-item">
             <a
-              href="#portfolioModal11"
-              className="portfolio-link"
+              href="#ProjectHighlightModal11"
+              className="ProjectHighlight-link"
               data-toggle="modal"
             >
-              <div className="portfolio-hover">
-                <div className="portfolio-hover-content">
+              <div className="ProjectHighlight-hover">
+                <div className="ProjectHighlight-hover-content">
                   <i className="fa fa-plus fa-3x"></i>
                 </div>
               </div>
@@ -262,20 +262,20 @@ const ProjectHighlight = () => {
                 alt=""
               />
             </a>
-            <div className="portfolio-caption">
+            <div className="ProjectHighlight-caption">
               <h4>Dreams</h4>
             </div>
           </div>
 
           {/* Project Modal 12 */}
-          <div className="col-md-4 col-sm-6 portfolio-item">
+          <div className="col-md-4 col-sm-6 ProjectHighlight-item">
             <a
-              href="#portfolioModal12"
-              className="portfolio-link"
+              href="#ProjectHighlightModal12"
+              className="ProjectHighlight-link"
               data-toggle="modal"
             >
-              <div className="portfolio-hover">
-                <div className="portfolio-hover-content">
+              <div className="ProjectHighlight-hover">
+                <div className="ProjectHighlight-hover-content">
                   <i className="fa fa-plus fa-3x"></i>
                 </div>
               </div>
@@ -285,20 +285,20 @@ const ProjectHighlight = () => {
                 alt=""
               />
             </a>
-            <div className="portfolio-caption">
+            <div className="ProjectHighlight-caption">
               <h4>Dreams</h4>
             </div>
           </div>
 
           {/* Project Modal 13 */}
-          <div className="col-md-4 col-sm-6 portfolio-item">
+          <div className="col-md-4 col-sm-6 ProjectHighlight-item">
             <a
-              href="#portfolioModal13"
-              className="portfolio-link"
+              href="#ProjectHighlightModal13"
+              className="ProjectHighlight-link"
               data-toggle="modal"
             >
-              <div className="portfolio-hover">
-                <div className="portfolio-hover-content">
+              <div className="ProjectHighlight-hover">
+                <div className="ProjectHighlight-hover-content">
                   <i className="fa fa-plus fa-3x"></i>
                 </div>
               </div>
@@ -308,20 +308,20 @@ const ProjectHighlight = () => {
                 alt=""
               />
             </a>
-            <div className="portfolio-caption">
+            <div className="ProjectHighlight-caption">
               <h4>Dreams</h4>
             </div>
           </div>
 
           {/* Project Modal 14 */}
-          <div className="col-md-4 col-sm-6 portfolio-item">
+          <div className="col-md-4 col-sm-6 ProjectHighlight-item">
             <a
-              href="#portfolioModal14"
-              className="portfolio-link"
+              href="#ProjectHighlightModal14"
+              className="ProjectHighlight-link"
               data-toggle="modal"
             >
-              <div className="portfolio-hover">
-                <div className="portfolio-hover-content">
+              <div className="ProjectHighlight-hover">
+                <div className="ProjectHighlight-hover-content">
                   <i className="fa fa-plus fa-3x"></i>
                 </div>
               </div>
@@ -331,20 +331,20 @@ const ProjectHighlight = () => {
                 alt=""
               />
             </a>
-            <div className="portfolio-caption">
+            <div className="ProjectHighlight-caption">
               <h4>Dreams</h4>
             </div>
           </div>
 
           {/* Project Modal 15 */}
-          <div className="col-md-4 col-sm-6 portfolio-item">
+          <div className="col-md-4 col-sm-6 ProjectHighlight-item">
             <a
-              href="#portfolioModal15"
-              className="portfolio-link"
+              href="#ProjectHighlightModal15"
+              className="ProjectHighlight-link"
               data-toggle="modal"
             >
-              <div className="portfolio-hover">
-                <div className="portfolio-hover-content">
+              <div className="ProjectHighlight-hover">
+                <div className="ProjectHighlight-hover-content">
                   <i className="fa fa-plus fa-3x"></i>
                 </div>
               </div>
@@ -354,7 +354,7 @@ const ProjectHighlight = () => {
                 alt=""
               />
             </a>
-            <div className="portfolio-caption">
+            <div className="ProjectHighlight-caption">
               <h4>Dreams</h4>
             </div>
           </div>

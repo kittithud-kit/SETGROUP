@@ -73,6 +73,11 @@ const PageNavbar = () => {
               </a>
             </li>
             <li>
+              <a className="page-scroll" href="#ProjectHighlight">
+                ProjectHighlight
+              </a>
+            </li>
+            <li>
               <a className="page-scroll" href="#portfolio">
                 Project
               </a>

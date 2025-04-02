@@ -16,6 +16,7 @@ import Project from "./component/Project";
 import About from "./component/About";
 import ProjectItem from "./component/ProjectItem";
 import Team from "./component/Team";
+import ProjectHighlight from "./component/ProjectHighlight";
 
 import BGVideo from "/src/assets/images/bg-video1.mp4";
 import logo from "/src/assets/images/logo.png";
@@ -87,7 +88,7 @@ const App = () => {
       {/* Services Section */}
       <Services />
       {/* Project Grid Section */}
-
+      <ProjectHighlight />
       <Project />
 
       {/* About Section */}
