@@ -3,6 +3,8 @@ import "./ProjectUs.css";
 
 /* Images */
 import FiberOptic from "../assets/images/Project/Fiber optic มาบตาพุต/ส่งงานดันครั้งที่ 2_190510_0004.jpg";
+import ServiceArea from "../assets/images/Project/CCTV Service Area/งานติดตั้งตู้ควบคุม กม.21 สาย7 ขาออก_๒๑๐๙๐๗_1.jpg";
+import CCTVWeightstation from "../assets/images/Project/CCTV Weight station/งานติดตั้งcctvระยอง_๑๙๐๒๒๘_0048.jpg";
 
 const ProjectUs = () => {
   return (
@@ -32,14 +34,50 @@ const ProjectUs = () => {
               <img src={FiberOptic} className="img-responsive" alt="" />
             </a>
             <div className="ProjectUs-caption">
-              <h4>Central Lab</h4>
+              <h4>Fiber Optic Motorway 7</h4>
               <h6 className="projectbath">value 9,999,999 bath</h6>
             </div>
           </div>
 
           {/* Project Modal 2 */}
+          <div className="col-md-4 col-sm-6 ProjectUs-item">
+            <a
+              href="#ProjectUsModal2"
+              className="ProjectUs-link"
+              data-toggle="modal"
+            >
+              <div className="ProjectUs-hover">
+                <div className="ProjectUs-hover-content">
+                  <i className="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img src={ServiceArea} className="img-responsive" alt="" />
+            </a>
+            <div className="ProjectUs-caption">
+              <h4>SERVICE AREAS Motorway 7, 9</h4>
+              <h6 className="projectbath">value 9,999,999 bath</h6>
+            </div>
+          </div>
 
           {/* Project Modal 3 */}
+          <div className="col-md-4 col-sm-6 ProjectUs-item">
+            <a
+              href="#ProjectUsModal3"
+              className="ProjectUs-link"
+              data-toggle="modal"
+            >
+              <div className="ProjectUs-hover">
+                <div className="ProjectUs-hover-content">
+                  <i className="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img src={CCTVWeightstation} className="img-responsive" alt="" />
+            </a>
+            <div className="ProjectUs-caption">
+              <h4>CCTV Over Weight</h4>
+              <h6 className="projectbath">value 9,999,999 bath</h6>
+            </div>
+          </div>
 
           {/* Project Modal 4 */}
 
