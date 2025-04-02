@@ -3,6 +3,8 @@ import React, { useEffect, useRef } from "react";
 import logo from "/src/assets/images/logo.png";
 
 import profileth from "../assets/images/Project/Profile/COMPANY PROFILE_V.ภาษาไทย.pdf";
+import profileen from "../assets/images/Project/Profile/COMPANY PROFILE_English version.pdf";
+
 const PageNavbar = () => {
   useEffect(() => {
     const $ = window.jQuery;
@@ -73,7 +75,6 @@ const PageNavbar = () => {
                 Services
               </a>
             </li>
-
             <li>
               <a className="page-scroll" href="#portfolio">
                 Project
@@ -94,11 +95,18 @@ const PageNavbar = () => {
                 Contact
               </a>
             </li>
-            <li>
-              <a className="page-scroll" href={profileth} target="_blank">
-                Proflie
+
+            <spen className="spenprofile">
+              <a className="separator" href={profileen} target="_blank">
+                |
               </a>
-            </li>
+              <a className="pageprofile" href={profileth} target="_blank">
+                Proflie TH /
+              </a>
+              <a className="pageprofile" href={profileen} target="_blank">
+                EN
+              </a>
+            </spen>
           </ul>
         </div>
       </div>
