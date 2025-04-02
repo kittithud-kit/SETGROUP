@@ -17,6 +17,7 @@ import About from "./component/About";
 import ProjectItem from "./component/ProjectItem";
 import Team from "./component/Team";
 import ProjectUs from "./component/ProjectUs";
+import BGoffice from "../src/assets/images/BGoffice.jpg";
 
 import BGVideo from "/src/assets/images/bg-video1.mp4";
 import logo from "/src/assets/images/logo.png";
@@ -61,6 +62,7 @@ const App = () => {
           </div>
         </div>
       </header>
+
       <video
         className="bgvideo"
         autoPlay
