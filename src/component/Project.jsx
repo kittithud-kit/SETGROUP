@@ -9,6 +9,7 @@ import Oracle from "../assets/images/Project/Project Highlight/Thabchang/Oracle/
 import ETS from "../assets/images/Project/Project Highlight/Pattaya/ETS/1.jpg";
 import ATS from "../assets/images/Project/Project Highlight/ATS/1.jpg";
 import SensorGen from "../assets/images/Project/Project Highlight/SensorGen/LINE_ALBUM_งานติดตั้ง Sensor อาคารด่านฯ หนองขาม 1_250402_1.jpg";
+import Generator from "../assets/images/Project/Project Highlight/Generator/LINE_ALBUM_งานปรับปรุงตู้ ATS อาคารด่านฯ บางพระ 1_250402_1.jpg";
 
 const Project = () => {
   return (
@@ -195,14 +196,11 @@ const Project = () => {
                   <i className="fa fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img
-                src="https://unsplash.imgix.net/uploads%2F1411419068566071cef10%2F7562527b?q=75&w=1080&h=1080&fit=max&fm=jpg&auto=format&s=240c45655f09c546232a6f106688e502"
-                className="img-responsive"
-                alt=""
-              />
+              <img src={Generator} className="img-responsive" alt="" />
             </a>
             <div className="portfolio-caption">
-              <h4>Dreams</h4>
+              <h4>Generator</h4>
+              <h6 className="projectbath">value 9,999,999 bath</h6>
             </div>
           </div>
 
