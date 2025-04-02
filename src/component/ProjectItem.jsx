@@ -1,5 +1,24 @@
 import React from "react";
 import "./ProjectItem.css";
+import setlogo from "../assets/images/logo.png";
+import dohlogo from "../assets/images/AboutUs/logo-doh.png";
+
+/* Images */
+import Centrallab from "../assets/images/Project/Project Highlight/Central Leb/ความคืบหน้า_๒๑๐๑๐๗_26.jpg";
+import ATMS from "../assets/images/Project/Project Highlight/Pattaya/ATMS/ATMS-FD.png";
+import TOLL from "../assets/images/Project/Project Highlight/Thabchang/toll.jpg";
+import VMS from "../assets/images/Project/Project Highlight/Thabchang/VMS/4.jpg";
+import Oracle from "../assets/images/Project/Project Highlight/Thabchang/Oracle/1.png";
+import ETS from "../assets/images/Project/Project Highlight/Pattaya/ETS/1.jpg";
+import ATS from "../assets/images/Project/Project Highlight/ATS/1.jpg";
+import SensorGen from "../assets/images/Project/Project Highlight/SensorGen/LINE_ALBUM_งานติดตั้ง Sensor อาคารด่านฯ หนองขาม 1_250402_1.jpg";
+import Generator from "../assets/images/Project/Project Highlight/Generator/LINE_ALBUM_งานปรับปรุงตู้ ATS อาคารด่านฯ บางพระ 1_250402_1.jpg";
+import NXWitness from "../assets/images/Project/NX Witness/LINE_ALBUM_ระบบบริหารจัดการสำหรับกล้องวงจรปิด_25040.jpg";
+import CCTVWeightstation from "../assets/images/Project/CCTV Weight station/IMG20190226151349.jpg";
+import CCBControl from "../assets/images/Project/Project Highlight/CCB Control/page3_img1.jpg";
+import HeightweigeControlCenter from "../assets/images/Project/Project Highlight/Heightweige Control Center/Videowall_181025_0002.jpg";
+import MSLaneControl from "../assets/images/Project/Project Highlight/MS Lane Control/5783891.jpg";
+import Kingpin from "../assets/images/Project/Project Highlight/King Pin Motorway/1.jpg";
 
 const ProjectItem = () => {
   return (
@@ -22,52 +41,16 @@ const ProjectItem = () => {
             <div className="row">
               <div className="col-lg-8 col-lg-offset-2">
                 <div className="modal-body">
-                  <h2>CCTV Service Area</h2>
-                  <p className="item-intro text-muted">Motorway M.7 and 9</p>
+                  {/* <img className="projectlogo" src={dohlogo}></img> */}
+                  <h2>Central Lab</h2>
+                  <p className="item-intro text-muted">value 22,899,000 bath</p>
                   <img
                     className="img-responsive-item"
-                    src="/public/images/Project/CCTV Service Area/LINE_ALBUM_SERVICE AREAS Sta.48+000 R M.7_๒๓๐๖๐๖_18.jpg"
+                    src={Centrallab}
                     alt=""
                   />
-                  <img
-                    className="img-responsive-item"
-                    src="/public/images/Project/CCTV Service Area/งานติดตั้งตู้ควบคุม กม.21 สาย7 ขาออก_๒๑๐๙๐๗_1.jpg"
-                    alt=""
-                  />
-                  <p>
-                    The **CCTV Service Area** system is a project that installs
-                    surveillance cameras in rest areas along intercity
-                    motorways, particularly on Motorway No. 7 (M7) and Motorway
-                    No. 9 (M9), to enhance safety for road users. The primary
-                    objectives of this system are to monitor security, detect
-                    emergency incidents, and assist authorities in managing
-                    traffic and providing timely assistance to motorists. The
-                    installation of CCTV cameras in Service Areas covers key
-                    locations such as entry and exit points, parking lots,
-                    retail stores, gas stations, and restrooms to ensure
-                    continuous monitoring. The cameras used are high-resolution,
-                    capable of capturing clear images both during the day and at
-                    night, and are supported by a recording system with
-                    sufficient storage for archiving past footage. Additionally,
-                    AI technology and image analysis systems are integrated to
-                    detect abnormal behaviors, such as the abandonment of
-                    suspicious objects, activities that may lead to criminal
-                    incidents, or accidents occurring in the area. The
-                    **Monitoring Center** serves as the hub for receiving video
-                    feeds from all cameras, allowing authorities to view live
-                    footage in real-time and promptly notify relevant agencies
-                    of any incidents. In cases of emergencies such as accidents,
-                    theft, or altercations, CCTV footage can also serve as
-                    crucial evidence for later investigations. Having a CCTV
-                    system in Service Areas provides greater security for road
-                    users when stopping to rest or utilizing facilities,
-                    ensuring that the area is under constant surveillance.
-                    Additionally, it enables highway officials to respond
-                    quickly to any unexpected incidents. This system plays a key
-                    role in elevating the safety standards of intercity
-                    motorways, making them more secure and efficient for all
-                    travelers.
-                  </p>
+
+                  <p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
 
                   <button
                     type="button"
@@ -101,16 +84,10 @@ const ProjectItem = () => {
             <div className="row">
               <div className="col-lg-8 col-lg-offset-2">
                 <div className="modal-body">
-                  <h2>CCTV Weige Station</h2>
-                  <p className="item-intro text-muted">Motorway M.7 and 9</p>
-                  <img
-                    className="img-responsive-item"
-                    src="/public/images/Project/CCTV ด่านชั่งน้ำหนัก/IMG20190226151349.jpg"
-                    alt=""
-                  />
-                  <p>
-                    The **CCTV Service Area** system is a project that installs
-                  </p>
+                  <h2>ATMS-FD</h2>
+                  <p className="item-intro text-muted">value 9,999,999 bath</p>
+                  <img className="img-responsive-item" src={ATMS} alt="" />
+                  <p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
 
                   <button
                     type="button"
@@ -144,16 +121,10 @@ const ProjectItem = () => {
             <div className="row">
               <div className="col-lg-8 col-lg-offset-2">
                 <div className="modal-body">
-                  <h2>Kingpin</h2>
-                  <p className="item-intro text-muted">Motorway M.7 and 9</p>
-                  <img
-                    className="img-responsive-item"
-                    src="/public/images/Project/Kingpin/IMG_8219.JPG"
-                    alt=""
-                  />
-                  <p>
-                    The **CCTV Service Area** system is a project that installs
-                  </p>
+                  <h2>TOLL</h2>
+                  <p className="item-intro text-muted">value 9,999,999 bath</p>
+                  <img className="img-responsive-item" src={TOLL} alt="" />
+                  <p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
 
                   <button
                     type="button"
@@ -187,21 +158,11 @@ const ProjectItem = () => {
             <div className="row">
               <div className="col-lg-8 col-lg-offset-2">
                 <div className="modal-body">
-                  <h2>Central Lab</h2>
-                  <p className="item-intro text-muted">Phraram 2</p>
-                  <img
-                    className="img-responsive-item"
-                    src="/public/images/Project/Central Leb/ความคืบหน้า_๒๑๐๑๐๗_26.jpg"
-                    alt=""
-                  />
-                  <img
-                    className="img-responsive-item"
-                    src="/public/images/Project/CCTV Service Area/งานติดตั้งตู้ควบคุม กม.21 สาย7 ขาออก_๒๑๐๙๐๗_1.jpg"
-                    alt=""
-                  />
-                  <p>
-                    The **CCTV Service Area** system is a project that installs
-                  </p>
+                  <h2>VMS</h2>
+                  <p className="item-intro text-muted">value 9,999,999 bath</p>
+                  <img className="img-responsive-item" src={VMS} />
+
+                  <p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
 
                   <button
                     type="button"
@@ -235,17 +196,11 @@ const ProjectItem = () => {
             <div className="row">
               <div className="col-lg-8 col-lg-offset-2">
                 <div className="modal-body">
-                  <h2>Fiber Optic</h2>
-                  <p className="item-intro text-muted">Motorway M.7</p>
-                  <img
-                    className="img-responsive-item"
-                    src="/public/images/Project/Fiber optic มาบตาพุต/ส่งงานดันครั้งที่ 2_190510_0004.jpg"
-                    alt=""
-                  />
+                  <h2>Oracle</h2>
+                  <p className="item-intro text-muted">value 9,999,999 bath</p>
+                  <img className="img-responsive-item" src={Oracle} alt="" />
 
-                  <p>
-                    The **CCTV Service Area** system is a project that installs
-                  </p>
+                  <p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
 
                   <button
                     type="button"
@@ -279,21 +234,15 @@ const ProjectItem = () => {
             <div className="row">
               <div className="col-lg-8 col-lg-offset-2">
                 <div className="modal-body">
-                  <h2>CCTV Management System</h2>
-                  <p className="item-intro text-muted">HWW</p>
-                  <img
-                    className="img-responsive-item"
-                    src="/public/images/Project/ระบบบริหารกล้องวงจรปิด/LINE_ALBUM_ระบบบริหารจัดการสำหรับกล้องวงจรปิด_25040.jpg"
-                    alt=""
-                  />
+                  <h2>ETS</h2>
+                  <p className="item-intro text-muted">value 9,999,999 bath</p>
+                  <img className="img-responsive-item" src={ETS} alt="" />
                   <img
                     className="img-responsive-item"
                     src="/public/images/Project/ระบบบริหารกล้องวงจรปิด/LINE_ALBUM_ระบบบริหารจัดการสำหรับกล้องวงจรปิด_250401.jpg"
                     alt=""
                   />
-                  <p>
-                    The **CCTV Service Area** system is a project that installs
-                  </p>
+                  <p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
 
                   <button
                     type="button"
@@ -327,21 +276,15 @@ const ProjectItem = () => {
             <div className="row">
               <div className="col-lg-8 col-lg-offset-2">
                 <div className="modal-body">
-                  <h2>Kingpin</h2>
-                  <p className="item-intro text-muted">Motorway M.7 and 9</p>
-                  <img
-                    className="img-responsive-item"
-                    src="/public/images/Project/CCTV Service Area/LINE_ALBUM_SERVICE AREAS Sta.48+000 R M.7_๒๓๐๖๐๖_18.jpg"
-                    alt=""
-                  />
+                  <h2>ATS</h2>
+                  <p className="item-intro text-muted">value 9,999,999 bath</p>
+                  <img className="img-responsive-item" src={ATS} alt="" />
                   <img
                     className="img-responsive-item"
                     src="/public/images/Project/CCTV Service Area/งานติดตั้งตู้ควบคุม กม.21 สาย7 ขาออก_๒๑๐๙๐๗_1.jpg"
                     alt=""
                   />
-                  <p>
-                    The **CCTV Service Area** system is a project that installs
-                  </p>
+                  <p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
 
                   <button
                     type="button"
@@ -375,18 +318,10 @@ const ProjectItem = () => {
             <div className="row">
               <div className="col-lg-8 col-lg-offset-2">
                 <div className="modal-body">
-                  <h2>Kingpin</h2>
-                  <p className="item-intro text-muted">Motorway M.7 and 9</p>
-                  <img
-                    className="img-responsive-item"
-                    src="/public/images/Project/CCTV Service Area/LINE_ALBUM_SERVICE AREAS Sta.48+000 R M.7_๒๓๐๖๐๖_18.jpg"
-                    alt=""
-                  />
-                  <img
-                    className="img-responsive-item"
-                    src="/public/images/Project/CCTV Service Area/งานติดตั้งตู้ควบคุม กม.21 สาย7 ขาออก_๒๑๐๙๐๗_1.jpg"
-                    alt=""
-                  />
+                  <h2>Sensor Generator</h2>
+                  <p className="item-intro text-muted">value 9,999,999 bath</p>
+                  <img className="img-responsive-item" src={SensorGen} alt="" />
+
                   <p>
                     The **CCTV Service Area** system is a project that installs
                   </p>
@@ -423,21 +358,15 @@ const ProjectItem = () => {
             <div className="row">
               <div className="col-lg-8 col-lg-offset-2">
                 <div className="modal-body">
-                  <h2>Kingpin</h2>
-                  <p className="item-intro text-muted">Motorway M.7 and 9</p>
-                  <img
-                    className="img-responsive-item"
-                    src="/public/images/Project/CCTV Service Area/LINE_ALBUM_SERVICE AREAS Sta.48+000 R M.7_๒๓๐๖๐๖_18.jpg"
-                    alt=""
-                  />
+                  <h2>Generator</h2>
+                  <p className="item-intro text-muted">value 9,999,999 bath</p>
+                  <img className="img-responsive-item" src={Generator} alt="" />
                   <img
                     className="img-responsive-item"
                     src="/public/images/Project/CCTV Service Area/งานติดตั้งตู้ควบคุม กม.21 สาย7 ขาออก_๒๑๐๙๐๗_1.jpg"
                     alt=""
                   />
-                  <p>
-                    The **CCTV Service Area** system is a project that installs
-                  </p>
+                  <p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
 
                   <button
                     type="button"
@@ -471,21 +400,11 @@ const ProjectItem = () => {
             <div className="row">
               <div className="col-lg-8 col-lg-offset-2">
                 <div className="modal-body">
-                  <h2>Kingpin</h2>
-                  <p className="item-intro text-muted">Motorway M.7 and 9</p>
-                  <img
-                    className="img-responsive-item"
-                    src="/public/images/Project/CCTV Service Area/LINE_ALBUM_SERVICE AREAS Sta.48+000 R M.7_๒๓๐๖๐๖_18.jpg"
-                    alt=""
-                  />
-                  <img
-                    className="img-responsive-item"
-                    src="/public/images/Project/CCTV Service Area/งานติดตั้งตู้ควบคุม กม.21 สาย7 ขาออก_๒๑๐๙๐๗_1.jpg"
-                    alt=""
-                  />
-                  <p>
-                    The **CCTV Service Area** system is a project that installs
-                  </p>
+                  <h2>NX Witness</h2>
+                  <p className="item-intro text-muted">value 9,999,999 bath</p>
+                  <img className="img-responsive-item" src={NXWitness} alt="" />
+
+                  <p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
 
                   <button
                     type="button"
@@ -519,21 +438,15 @@ const ProjectItem = () => {
             <div className="row">
               <div className="col-lg-8 col-lg-offset-2">
                 <div className="modal-body">
-                  <h2>Kingpin</h2>
-                  <p className="item-intro text-muted">Motorway M.7 and 9</p>
+                  <h2>CCTV Weight Station</h2>
+                  <p className="item-intro text-muted">value 9,999,999 bath</p>
                   <img
                     className="img-responsive-item"
-                    src="/public/images/Project/CCTV Service Area/LINE_ALBUM_SERVICE AREAS Sta.48+000 R M.7_๒๓๐๖๐๖_18.jpg"
+                    src={CCTVWeightstation}
                     alt=""
                   />
-                  <img
-                    className="img-responsive-item"
-                    src="/public/images/Project/CCTV Service Area/งานติดตั้งตู้ควบคุม กม.21 สาย7 ขาออก_๒๑๐๙๐๗_1.jpg"
-                    alt=""
-                  />
-                  <p>
-                    The **CCTV Service Area** system is a project that installs
-                  </p>
+
+                  <p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
 
                   <button
                     type="button"
@@ -567,8 +480,8 @@ const ProjectItem = () => {
             <div className="row">
               <div className="col-lg-8 col-lg-offset-2">
                 <div className="modal-body">
-                  <h2>Kingpin</h2>
-                  <p className="item-intro text-muted">Motorway M.7 and 9</p>
+                  <h2>CCB Control Center</h2>
+                  <p className="item-intro text-muted">value 9,999,999 bath</p>
                   <img
                     className="img-responsive-item"
                     src="/public/images/Project/CCTV Service Area/LINE_ALBUM_SERVICE AREAS Sta.48+000 R M.7_๒๓๐๖๐๖_18.jpg"
@@ -576,12 +489,144 @@ const ProjectItem = () => {
                   />
                   <img
                     className="img-responsive-item"
-                    src="/public/images/Project/CCTV Service Area/งานติดตั้งตู้ควบคุม กม.21 สาย7 ขาออก_๒๑๐๙๐๗_1.jpg"
+                    src={CCBControl}
                     alt=""
                   />
-                  <p>
-                    The **CCTV Service Area** system is a project that installs
-                  </p>
+                  <p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+
+                  <button
+                    type="button"
+                    className="btn btn-primary"
+                    data-dismiss="modal"
+                  >
+                    <i className="fa fa-times"></i> Close Project
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Project Modal 13 */}
+      <div
+        className="portfolio-modal modal fade"
+        id="portfolioModal13"
+        tabIndex="-1"
+        role="dialog"
+        aria-hidden="true"
+      >
+        <div className="modal-content">
+          <div className="close-modal" data-dismiss="modal">
+            <div className="lr">
+              <div className="rl"></div>
+            </div>
+          </div>
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-8 col-lg-offset-2">
+                <div className="modal-body">
+                  <h2>Heightweige Control Center</h2>
+                  <p className="item-intro text-muted">value 9,999,999 bath</p>
+                  <img
+                    className="img-responsive-item"
+                    src="/public/images/Project/CCTV Service Area/LINE_ALBUM_SERVICE AREAS Sta.48+000 R M.7_๒๓๐๖๐๖_18.jpg"
+                    alt=""
+                  />
+                  <img
+                    className="img-responsive-item"
+                    src={HeightweigeControlCenter}
+                    alt=""
+                  />
+                  <p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+
+                  <button
+                    type="button"
+                    className="btn btn-primary"
+                    data-dismiss="modal"
+                  >
+                    <i className="fa fa-times"></i> Close Project
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Project Modal 14 */}
+      <div
+        className="portfolio-modal modal fade"
+        id="portfolioModal14"
+        tabIndex="-1"
+        role="dialog"
+        aria-hidden="true"
+      >
+        <div className="modal-content">
+          <div className="close-modal" data-dismiss="modal">
+            <div className="lr">
+              <div className="rl"></div>
+            </div>
+          </div>
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-8 col-lg-offset-2">
+                <div className="modal-body">
+                  <h2>MS Lane Control</h2>
+                  <p className="item-intro text-muted">value 9,999,999 bath</p>
+                  <img
+                    className="img-responsive-item"
+                    src="/public/images/Project/CCTV Service Area/LINE_ALBUM_SERVICE AREAS Sta.48+000 R M.7_๒๓๐๖๐๖_18.jpg"
+                    alt=""
+                  />
+                  <img
+                    className="img-responsive-item"
+                    src={MSLaneControl}
+                    alt=""
+                  />
+                  <p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+
+                  <button
+                    type="button"
+                    className="btn btn-primary"
+                    data-dismiss="modal"
+                  >
+                    <i className="fa fa-times"></i> Close Project
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Project Modal 15 */}
+      <div
+        className="portfolio-modal modal fade"
+        id="portfolioModal15"
+        tabIndex="-1"
+        role="dialog"
+        aria-hidden="true"
+      >
+        <div className="modal-content">
+          <div className="close-modal" data-dismiss="modal">
+            <div className="lr">
+              <div className="rl"></div>
+            </div>
+          </div>
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-8 col-lg-offset-2">
+                <div className="modal-body">
+                  <h2>Kingpin</h2>
+                  <p className="item-intro text-muted">value 9,999,999 bath</p>
+                  <img
+                    className="img-responsive-item"
+                    src="/public/images/Project/CCTV Service Area/LINE_ALBUM_SERVICE AREAS Sta.48+000 R M.7_๒๓๐๖๐๖_18.jpg"
+                    alt=""
+                  />
+                  <img className="img-responsive-item" src={Kingpin} alt="" />
+                  <p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
 
                   <button
                     type="button"
