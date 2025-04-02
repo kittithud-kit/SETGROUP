@@ -16,7 +16,7 @@ import Project from "./component/Project";
 import About from "./component/About";
 import ProjectItem from "./component/ProjectItem";
 import Team from "./component/Team";
-import ProjectHighlight from "./component/ProjectUs";
+import ProjectUs from "./component/ProjectUs";
 
 import BGVideo from "/src/assets/images/bg-video1.mp4";
 import logo from "/src/assets/images/logo.png";
@@ -90,6 +90,7 @@ const App = () => {
       {/* Project Grid Section */}
 
       <Project />
+      <ProjectUs />
 
       {/* About Section */}
       <About />

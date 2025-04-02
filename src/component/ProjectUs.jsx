@@ -7,7 +7,7 @@ const ProjectUs = () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-12 text-center">
-            <h2 className="section-heading">ProjectUs</h2>
+            <h2 className="section-heading">Project Us</h2>
             <h3 className="section-subheading text-muted">
               Past works from the past to the present.
             </h3>
