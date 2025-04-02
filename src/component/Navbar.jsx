@@ -2,6 +2,7 @@ import "./Navbar.css";
 import React, { useEffect, useRef } from "react";
 import logo from "/src/assets/images/logo.png";
 
+import profileth from "../assets/images/Project/Profile/COMPANY PROFILE_V.ภาษาไทย.pdf";
 const PageNavbar = () => {
   useEffect(() => {
     const $ = window.jQuery;
@@ -91,6 +92,11 @@ const PageNavbar = () => {
             <li>
               <a className="page-scroll" href="#contact">
                 Contact
+              </a>
+            </li>
+            <li>
+              <a className="page-scroll" href={profileth} target="_blank">
+                Proflie
               </a>
             </li>
           </ul>
