@@ -1,20 +1,20 @@
-#portfolio .portfolio-item {
+#ProjectUs .ProjectUs-item {
   right: 0;
   margin: 0 0 15px;
 }
 
-#portfolio {
-  background-color: #403f42;
+#ProjectUs {
+  background-color: #362f5b;
 }
 
-#portfolio .portfolio-item .portfolio-link {
+#ProjectUs .ProjectUs-item .ProjectUs-link {
   display: block;
   position: relative;
   margin: 0 auto;
   max-width: 400px;
 }
 
-#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+#ProjectUs .ProjectUs-item .ProjectUs-link .ProjectUs-hover {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -25,15 +25,15 @@
   transition: all ease 0.5s;
 }
 
-#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
+#ProjectUs .ProjectUs-item .ProjectUs-link .ProjectUs-hover:hover {
   opacity: 1;
 }
 
-#portfolio
-  .portfolio-item
-  .portfolio-link
-  .portfolio-hover
-  .portfolio-hover-content {
+#ProjectUs
+  .ProjectUs-item
+  .ProjectUs-link
+  .ProjectUs-hover
+  .ProjectUs-hover-content {
   position: absolute;
   top: 50%;
   width: 100%;
@@ -44,31 +44,31 @@
   color: #fff;
 }
 
-#portfolio
-  .portfolio-item
-  .portfolio-link
-  .portfolio-hover
-  .portfolio-hover-content
+#ProjectUs
+  .ProjectUs-item
+  .ProjectUs-link
+  .ProjectUs-hover
+  .ProjectUs-hover-content
   i {
   margin-top: -12px;
 }
 
-#portfolio
-  .portfolio-item
-  .portfolio-link
-  .portfolio-hover
-  .portfolio-hover-content
+#ProjectUs
+  .ProjectUs-item
+  .ProjectUs-link
+  .ProjectUs-hover
+  .ProjectUs-hover-content
   h3,
-#portfolio
-  .portfolio-item
-  .portfolio-link
-  .portfolio-hover
-  .portfolio-hover-content
+#ProjectUs
+  .ProjectUs-item
+  .ProjectUs-link
+  .ProjectUs-hover
+  .ProjectUs-hover-content
   h4 {
   margin: 0;
 }
 
-#portfolio .portfolio-item .portfolio-caption {
+#ProjectUs .ProjectUs-item .ProjectUs-caption {
   margin: 0 auto;
   padding: 25px;
   max-width: 400px;
@@ -76,34 +76,29 @@
   background-color: #fff;
 }
 
-#portfolio .portfolio-item .portfolio-caption h4 {
+#ProjectUs .ProjectUs-item .ProjectUs-caption h4 {
   margin: 0;
   text-transform: none;
 }
 
-#portfolio .portfolio-item .portfolio-caption p {
+#ProjectUs .ProjectUs-item .ProjectUs-caption p {
   margin: 0;
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-style: italic;
 }
 
-#portfolio * {
+#ProjectUs * {
   z-index: 2;
 }
 
 @media (min-width: 767px) {
-  #portfolio .portfolio-item {
+  #ProjectUs .ProjectUs-item {
     margin: 0 0 30px;
   }
 }
 
-.img-responsive {
+/* .img-responsive {
   height: 280px;
   width: 700px;
-}
-
-.projectbath {
-  color: rgb(74, 74, 71);
-  font-style: italic;
-}
+} */

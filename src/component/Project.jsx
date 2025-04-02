@@ -1,5 +1,14 @@
 import React from "react";
 import "./Project.css";
+/* Images */
+import Centrallab from "../assets/images/Project/Project Highlight/Central Leb/ความคืบหน้า_๒๑๐๑๐๗_26.jpg";
+import ATMS from "../assets/images/Project/Project Highlight/Pattaya/ATMS/ATMS-FD.png";
+import TOLL from "../assets/images/Project/Project Highlight/Thabchang/toll.jpg";
+import VMS from "../assets/images/Project/Project Highlight/Thabchang/VMS/4.jpg";
+import Oracle from "../assets/images/Project/Project Highlight/Thabchang/Oracle/1.png";
+import ETS from "../assets/images/Project/Project Highlight/Pattaya/ETS/1.jpg";
+import ATS from "../assets/images/Project/Project Highlight/ATS/1.jpg";
+import SensorGen from "../assets/images/Project/Project Highlight/SensorGen/LINE_ALBUM_งานติดตั้ง Sensor อาคารด่านฯ หนองขาม 1_250402_1.jpg";
 
 const Project = () => {
   return (
@@ -7,7 +16,7 @@ const Project = () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-12 text-center">
-            <h2 className="section-heading">Project Raference</h2>
+            <h2 className="section-heading">Project Highlight</h2>
             <h3 className="section-subheading text-muted">
               Past works from the past to the present.
             </h3>
@@ -26,14 +35,11 @@ const Project = () => {
                   <i className="fa fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img
-                src="/public/images/Project/CCTV Service Area/LINE_ALBUM_SERVICE AREAS Sta.48+000 R M.7_๒๓๐๖๐๖_18.jpg"
-                className="img-responsive"
-                alt=""
-              />
+              <img src={Centrallab} className="img-responsive" alt="" />
             </a>
             <div className="portfolio-caption">
-              <h4>CCTV Service Area</h4>
+              <h4>Central Lab</h4>
+              <h6 className="projectbath">value 9,999,999 bath</h6>
             </div>
           </div>
 
@@ -49,14 +55,11 @@ const Project = () => {
                   <i className="fa fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img
-                src="/public/images/Project/CCTV ด่านชั่งน้ำหนัก/IMG20190226151349.jpg"
-                className="img-responsive"
-                alt=""
-              />
+              <img src={ATMS} className="img-responsive" alt="" />
             </a>
             <div className="portfolio-caption">
-              <h4>CCTV Weige Station</h4>
+              <h4>ATMS-FD</h4>
+              <h6 className="projectbath">value 9,999,999 bath</h6>
             </div>
           </div>
 
@@ -72,14 +75,11 @@ const Project = () => {
                   <i className="fa fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img
-                src="/public/images/Project/Kingpin/IMG_8219.JPG"
-                className="img-responsive"
-                alt=""
-              />
+              <img src={TOLL} className="img-responsive" alt="" />
             </a>
             <div className="portfolio-caption">
-              <h4>Kingpin</h4>
+              <h4>TOLL</h4>
+              <h6 className="projectbath">value 9,999,999 bath</h6>
             </div>
           </div>
 
@@ -95,14 +95,11 @@ const Project = () => {
                   <i className="fa fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img
-                src="/public/images/Project/Central Leb/ความคืบหน้า_๒๑๐๑๐๗_26.jpg"
-                className="img-responsive"
-                alt=""
-              />
+              <img src={VMS} className="img-responsive" alt="" />
             </a>
             <div className="portfolio-caption">
-              <h4>Central Leb</h4>
+              <h4>VMS</h4>
+              <h6 className="projectbath">value 9,999,999 bath</h6>
             </div>
           </div>
 
@@ -118,14 +115,11 @@ const Project = () => {
                   <i className="fa fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img
-                src="/public/images/Project/Fiber optic มาบตาพุต/ส่งงานดันครั้งที่ 2_190510_0004.jpg"
-                className="img-responsive"
-                alt=""
-              />
+              <img src={Oracle} className="img-responsive" alt="" />
             </a>
             <div className="portfolio-caption">
-              <h4>Fiber Optic M7</h4>
+              <h4>Oracle</h4>
+              <h6 className="projectbath">value 9,999,999 bath</h6>
             </div>
           </div>
 
@@ -141,14 +135,11 @@ const Project = () => {
                   <i className="fa fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img
-                src="/public/images/Project/ระบบบริหารกล้องวงจรปิด/LINE_ALBUM_ระบบบริหารจัดการสำหรับกล้องวงจรปิด_25040.jpg"
-                className="img-responsive"
-                alt=""
-              />
+              <img src={ETS} className="img-responsive" alt="" />
             </a>
             <div className="portfolio-caption">
-              <h4>CCTV Management System</h4>
+              <h4>ETS</h4>
+              <h6 className="projectbath">value 9,999,999 bath</h6>
             </div>
           </div>
 
@@ -164,14 +155,11 @@ const Project = () => {
                   <i className="fa fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img
-                src="https://unsplash.imgix.net/uploads%2F1411419068566071cef10%2F7562527b?q=75&w=1080&h=1080&fit=max&fm=jpg&auto=format&s=240c45655f09c546232a6f106688e502"
-                className="img-responsive"
-                alt=""
-              />
+              <img src={ATS} className="img-responsive" alt="" />
             </a>
             <div className="portfolio-caption">
-              <h4>Dreams</h4>
+              <h4>ATS</h4>
+              <h6 className="projectbath">value 9,999,999 bath</h6>
             </div>
           </div>
 
@@ -187,14 +175,11 @@ const Project = () => {
                   <i className="fa fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img
-                src="https://unsplash.imgix.net/uploads%2F1411419068566071cef10%2F7562527b?q=75&w=1080&h=1080&fit=max&fm=jpg&auto=format&s=240c45655f09c546232a6f106688e502"
-                className="img-responsive"
-                alt=""
-              />
+              <img src={SensorGen} className="img-responsive" alt="" />
             </a>
             <div className="portfolio-caption">
-              <h4>Dreams</h4>
+              <h4>Sensor Generator</h4>
+              <h6 className="projectbath">value 9,999,999 bath</h6>
             </div>
           </div>
 
