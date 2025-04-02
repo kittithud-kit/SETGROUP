@@ -5,6 +5,8 @@ import "./ProjectUs.css";
 import FiberOptic from "../assets/images/Project/Fiber optic มาบตาพุต/ส่งงานดันครั้งที่ 2_190510_0004.jpg";
 import ServiceArea from "../assets/images/Project/CCTV Service Area/งานติดตั้งตู้ควบคุม กม.21 สาย7 ขาออก_๒๑๐๙๐๗_1.jpg";
 import CCTVWeightstation from "../assets/images/Project/CCTV Weight station/งานติดตั้งcctvระยอง_๑๙๐๒๒๘_0048.jpg";
+import ClassificationLPR from "../assets/images/Project/Classification-LPR  ด่านชั่งน้ำหนัก/โปรแกรมคัดแยก.png";
+import SteelGuardrail from "../assets/images/Project/Steel Guardrail/S__1867827.jpg";
 
 const ProjectUs = () => {
   return (
@@ -80,8 +82,44 @@ const ProjectUs = () => {
           </div>
 
           {/* Project Modal 4 */}
+          <div className="col-md-4 col-sm-6 ProjectUs-item">
+            <a
+              href="#ProjectUsModal4"
+              className="ProjectUs-link"
+              data-toggle="modal"
+            >
+              <div className="ProjectUs-hover">
+                <div className="ProjectUs-hover-content">
+                  <i className="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img src={ClassificationLPR} className="img-responsive" alt="" />
+            </a>
+            <div className="ProjectUs-caption">
+              <h4>Classification LPR</h4>
+              <h6 className="projectbath">value 9,999,999 bath</h6>
+            </div>
+          </div>
 
           {/* Project Modal 5 */}
+          <div className="col-md-4 col-sm-6 ProjectUs-item">
+            <a
+              href="#ProjectUsModal5"
+              className="ProjectUs-link"
+              data-toggle="modal"
+            >
+              <div className="ProjectUs-hover">
+                <div className="ProjectUs-hover-content">
+                  <i className="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img src={SteelGuardrail} className="img-responsive" alt="" />
+            </a>
+            <div className="ProjectUs-caption">
+              <h4>CSteel Guardrail</h4>
+              <h6 className="projectbath">value 9,999,999 bath</h6>
+            </div>
+          </div>
 
           {/* Project Modal 6 */}
 
