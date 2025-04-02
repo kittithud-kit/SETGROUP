@@ -97,11 +97,9 @@ const PageNavbar = () => {
             </li>
 
             <spen className="spenprofile">
-              <a className="separator" href={profileen} target="_blank">
-                |
-              </a>
+              <a className="separator">|</a>
               <a className="pageprofile" href={profileth} target="_blank">
-                Proflie TH /
+                Profile TH /
               </a>
               <a className="pageprofile" href={profileen} target="_blank">
                 EN
