@@ -9,11 +9,15 @@ ul {
   padding: 0px;
 }
 .footer-section {
-  background: #151414;
-  position: relative;
+  background-image: url("/src/assets/images/pngtree.jpg");
+  background-size: cover; /* ปรับขนาดภาพให้ครอบคลุมเต็มพื้นที่ */
+  background-position: center; /* จัดกึ่งกลางภาพ */
+  /* background-repeat: no-repeat; */ /* ไม่ให้ภาพซ้ำ */
+  width: 100vw; /* ให้ความกว้างเต็มหน้าจอ */
+  /* height: 100vh; */ /* ให้ความสูงเต็มหน้าจอ */
 }
 .footer-cta {
-  border-bottom: 1px solid #373636;
+  border-bottom: 1px solid #fefbfb;
 }
 .single-cta {
   margin-bottom: 30px;
@@ -40,9 +44,10 @@ ul {
   margin-bottom: 2px;
 }
 .cta-text span {
-  color: #757575;
+  color: #bbb4b4;
   font-size: 15px;
 }
+
 .footer-content {
   position: relative;
   z-index: 2;

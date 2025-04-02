@@ -1,5 +1,6 @@
 #services {
   background-color: #718355;
+  background-image: url("/src/assets//images//BGoffice.jpg");
 }
 
 .Consultpng {
@@ -52,4 +53,5 @@ section h3.section-subheading {
 .service-heading {
   margin: 15px 0;
   text-transform: none;
+  color: #ffffff;
 }

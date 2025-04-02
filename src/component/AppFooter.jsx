@@ -111,7 +111,7 @@ const PageFooter = () => {
                   <div className="footer-widget-heading">
                     <h3>ABOUT SETGROUP</h3>
                   </div>
-                  <div className="footer-text mb-25">
+                  <div className="footer-text mb-25 ">
                     <p>
                       &nbsp;&nbsp;&nbsp;&nbsp;Your company provides design and
                       installation of telecommunication network systems,

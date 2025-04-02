@@ -1,5 +1,10 @@
 #team {
-  background-color: #5d2d5b;
+  background-image: url("/src/assets/images/header6.jpg");
+  background-size: cover; /* ปรับขนาดภาพให้ครอบคลุมเต็มพื้นที่ */
+  background-position: center; /* จัดกึ่งกลางภาพ */
+  /* background-repeat: no-repeat; */ /* ไม่ให้ภาพซ้ำ */
+  width: 100vw; /* ให้ความกว้างเต็มหน้าจอ */
+  height: 100vh; /* ให้ความสูงเต็มหน้าจอ */
 }
 
 .text-muted {

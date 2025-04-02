@@ -4,7 +4,12 @@
 }
 
 #ProjectUs {
-  background-color: #362f5b;
+  background-image: url("/src/assets/images/cityscape-street-city-trees-wallpaper-preview.jpg");
+  background-size: cover; /* ปรับขนาดภาพให้ครอบคลุมเต็มพื้นที่ */
+  background-position: center; /* จัดกึ่งกลางภาพ */
+  /* background-repeat: no-repeat; */ /* ไม่ให้ภาพซ้ำ */
+  width: 100vw; /* ให้ความกว้างเต็มหน้าจอ */
+  /* height: 100vh;  /* ให้ความสูงเต็มหน้าจอ */
 }
 
 #ProjectUs .ProjectUs-item .ProjectUs-link {

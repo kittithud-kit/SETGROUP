@@ -4,7 +4,12 @@
 }
 
 #portfolio {
-  background-color: #403f42;
+  background-image: url("/src/assets/images/2b7283fa9264ac636e7465d7da776db5.jpg");
+  background-size: cover; /* ปรับขนาดภาพให้ครอบคลุมเต็มพื้นที่ */
+  background-position: center; /* จัดกึ่งกลางภาพ */
+  /* background-repeat: no-repeat; */ /* ไม่ให้ภาพซ้ำ */
+  width: 100vw; /* ให้ความกว้างเต็มหน้าจอ */
+  /* height: 100vh;  /* ให้ความสูงเต็มหน้าจอ */
 }
 
 #portfolio .portfolio-item .portfolio-link {
