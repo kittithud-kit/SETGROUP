@@ -9,6 +9,8 @@ import ServiceArea from "../assets/images/Project/CCTV Service Area/งานต
 import CCTVWeightstation from "../assets/images/Project/CCTV Weight station/งานติดตั้งcctvระยอง_๑๙๐๒๒๘_0048.jpg";
 import ClassificationLPR from "../assets/images/Project/Classification-LPR  ด่านชั่งน้ำหนัก/S__44851234_0.jpg";
 import SteelGuardrail from "../assets/images/Project/Steel Guardrail/S__1867827.jpg";
+import HorizontalDirectionalDrilling from "../assets/images/Project/HDD/ตั้งเครื่อง.bmp";
+import AutomaticClassificationSystem from "../assets/images/Project/Automatic Classification System/2.jpg";
 
 const ProjectUsItem = () => {
   return (
@@ -201,15 +203,21 @@ const ProjectUsItem = () => {
                   />
 
                   <p>
-                    The VMS (Variable Message Sign System) is an intelligent
-                    signage system used to display real-time traffic
-                    information, alerts, and warnings to drivers. This system is
-                    connected to a traffic control center and can update
-                    messages based on traffic conditions, accidents, or weather
-                    changes, helping to reduce congestion and enhance road
-                    safety. VMS is commonly installed on expressways, highways,
-                    and urban roads to provide crucial information, allowing
-                    drivers to plan their routes more efficiently.
+                    License Plate Recognition (LPR) is a technology used to
+                    automatically identify vehicle license plates from images or
+                    video footage. Classification in LPR plays a crucial role in
+                    distinguishing different types of plates, characters, and
+                    vehicle categories, improving the accuracy of the
+                    recognition process. The classification process involves
+                    analyzing extracted plate data to determine key attributes
+                    such as country or state of issuance, plate format, and
+                    character types. Advanced machine learning and deep learning
+                    techniques are often used to enhance precision, enabling the
+                    system to handle various plate designs, fonts, and
+                    environmental conditions. Accurate classification in LPR is
+                    essential for applications such as toll collection, traffic
+                    enforcement, and smart parking systems, ensuring reliable
+                    vehicle identification and efficient traffic management.
                   </p>
 
                   <button
@@ -253,16 +261,19 @@ const ProjectUsItem = () => {
                   />
 
                   <p>
-                    Oracle is a widely used database system for managing
-                    large-scale data within organizations. It utilizes SQL
-                    (Structured Query Language) to efficiently and securely
-                    access and process information. Oracle offers features that
-                    support various functions such as business data management,
-                    data analysis, and the development of complex applications.
-                    It is scalable, making it suitable for organizations of
-                    different sizes and needs. With its stability and high
-                    security, Oracle is ideal for organizations that require
-                    managing complex and critical data efficiently.
+                    Steel guardrails are protective barriers designed to enhance
+                    road safety by preventing vehicles from veering off the
+                    roadway. Commonly installed along highways, bridges, and
+                    dangerous curves, these barriers help reduce the severity of
+                    accidents by absorbing impact and redirecting vehicles back
+                    onto the road. Typically made from galvanized steel for
+                    durability and corrosion resistance, guardrails come in
+                    various designs, such as W-beam and thrie-beam
+                    configurations. Their installation follows strict safety
+                    standards to ensure optimal performance in mitigating
+                    crashes. Steel guardrails play a crucial role in traffic
+                    management and road safety, protecting motorists,
+                    pedestrians, and infrastructure from potential hazards.
                   </p>
 
                   <button
@@ -297,11 +308,11 @@ const ProjectUsItem = () => {
             <div className="row">
               <div className="col-lg-8 col-lg-offset-2">
                 <div className="modal-body">
-                  <h2>Emergency Telephone System</h2>
+                  <h2>Horizontal Directional Drilling</h2>
                   <p className="item-intro text-muted">value 9,999,999 bath</p>
                   <img
                     className="img-responsive-item"
-                    src={SteelGuardrail}
+                    src={HorizontalDirectionalDrilling}
                     alt=""
                   />
                   <img
@@ -310,17 +321,20 @@ const ProjectUsItem = () => {
                     alt=""
                   />
                   <p>
-                    The Emergency Telephone System is a communication system
-                    designed for reporting urgent incidents such as accidents,
-                    fires, or other emergencies. It connects directly to control
-                    centers or relevant authorities for immediate assistance.
-                    This system is commonly installed in public areas such as
-                    highways, train stations, and critical buildings, allowing
-                    people to request help quickly. It also supports automated
-                    functions like location identification and call recording.
-                    The Emergency Telephone System enhances emergency response
-                    efficiency, reduces reaction time, and improves public
-                    safety.
+                    Horizontal Directional Drilling (HDD) is a trenchless
+                    technology used for installing underground pipelines,
+                    conduits, and cables without the need for open excavation.
+                    This method is ideal for crossing roads, railways, rivers,
+                    and other obstacles where traditional trenching is not
+                    feasible. The HDD process begins with a pilot bore, where a
+                    steerable drill head is used to create a guided path. The
+                    borehole is then enlarged to accommodate the required
+                    pipeline or conduit. Once the hole reaches the desired size,
+                    the pipeline is pulled through and securely installed. HDD
+                    technology minimizes environmental disruption, reduces
+                    construction time, and lowers restoration costs compared to
+                    conventional open-cut methods, making it a preferred
+                    solution for modern infrastructure projects.
                   </p>
 
                   <button
@@ -355,11 +369,11 @@ const ProjectUsItem = () => {
             <div className="row">
               <div className="col-lg-8 col-lg-offset-2">
                 <div className="modal-body">
-                  <h2>ATS</h2>
+                  <h2>Automatic Classification System</h2>
                   <p className="item-intro text-muted">value 9,999,999 bath</p>
                   <img
                     className="img-responsive-item"
-                    src={SteelGuardrail}
+                    src={AutomaticClassificationSystem}
                     alt=""
                   />
                   <img
@@ -367,7 +381,23 @@ const ProjectUsItem = () => {
                     src="/public/images/Project/CCTV Service Area/งานติดตั้งตู้ควบคุม กม.21 สาย7 ขาออก_๒๑๐๙๐๗_1.jpg"
                     alt=""
                   />
-                  <p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+                  <p>
+                    The Automatic Classification Truck System is a technology
+                    designed to identify and categorize trucks without human
+                    intervention. It utilizes Artificial Intelligence (AI),
+                    Machine Learning (ML), and various sensors such as cameras,
+                    LiDAR, and License Plate Recognition (LPR) systems to
+                    analyze and classify trucks based on predefined criteria.
+                    This system can accurately classify trucks by size, weight,
+                    number of axles, or cargo type. It is widely used in
+                    applications such as automatic toll collection, truck
+                    parking management, security inspection, and freight
+                    logistics optimization. By implementing an automatic truck
+                    classification system, organizations can enhance efficiency,
+                    reduce human errors, lower operational costs, and improve
+                    the overall effectiveness of transportation and logistics
+                    management.
+                  </p>
 
                   <button
                     type="button"

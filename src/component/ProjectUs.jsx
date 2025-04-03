@@ -7,6 +7,16 @@ import ServiceArea from "../assets/images/Project/CCTV Service Area/งานต
 import CCTVWeightstation from "../assets/images/Project/CCTV Weight station/งานติดตั้งcctvระยอง_๑๙๐๒๒๘_0048.jpg";
 import ClassificationLPR from "../assets/images/Project/Classification-LPR  ด่านชั่งน้ำหนัก/S__44851234_0.jpg";
 import SteelGuardrail from "../assets/images/Project/Steel Guardrail/S__1867827.jpg";
+import HorizontalDirectionalDrilling from "../assets/images/Project/HDD/ตั้งเครื่อง.bmp";
+import AutomaticClassificationSystem from "../assets/images/Project/Automatic Classification System/2.jpg";
+import ImageProcessingDetectorSystem from "../assets/images/Project/Image Processing Detector System/2.jpg";
+import MatrixSign from "../assets/images/Project/Matrix Sign/1743671845909.jpg";
+import RadioCommunicationSystem from "../assets/images/Project/Radio Communication System/1743672446510.jpg";
+import ClockSystem from "../assets/images/Project/Clock System/1.jpg";
+import MultiLaneFreeFlowSystem from "../assets/images/Project/Multi Lane Free Flow System/1.png";
+import ElectricalOnTheRoad from "../assets/images/Project/Electrical work on the road/1743673364432.jpg";
+import WaterLevelMeasurementSystem from "../assets/images/Project/Water Level Measurement System/1.png";
+import CATTelecomNode from "../assets/images/Project/CAT Telecom Node/1743674577744.jpg";
 
 const ProjectUs = () => {
   return (
@@ -133,10 +143,14 @@ const ProjectUs = () => {
                   <i className="fa fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img src={SteelGuardrail} className="img-responsive" alt="" />
+              <img
+                src={HorizontalDirectionalDrilling}
+                className="img-responsive"
+                alt=""
+              />
             </a>
             <div className="portfolio-caption">
-              <h4>Emergency Telephone System</h4>
+              <h4>Horizontal Directional Drilling</h4>
               <h6 className="projectbath">value 9,999,999 bath</h6>
             </div>
           </div>
@@ -153,10 +167,14 @@ const ProjectUs = () => {
                   <i className="fa fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img src={SteelGuardrail} className="img-responsive" alt="" />
+              <img
+                src={AutomaticClassificationSystem}
+                className="img-responsive"
+                alt=""
+              />
             </a>
             <div className="portfolio-caption">
-              <h4>ATS</h4>
+              <h4>Automatic Classification System</h4>
               <h6 className="projectbath">value 9,999,999 bath</h6>
             </div>
           </div>
@@ -173,10 +191,14 @@ const ProjectUs = () => {
                   <i className="fa fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img src={SteelGuardrail} className="img-responsive" alt="" />
+              <img
+                src={ImageProcessingDetectorSystem}
+                className="img-responsive"
+                alt=""
+              />
             </a>
             <div className="portfolio-caption">
-              <h4>Sensor Generator</h4>
+              <h4>Image Processing Detector System</h4>
               <h6 className="projectbath">value 9,999,999 bath</h6>
             </div>
           </div>
@@ -193,10 +215,10 @@ const ProjectUs = () => {
                   <i className="fa fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img src={SteelGuardrail} className="img-responsive" alt="" />
+              <img src={MatrixSign} className="img-responsive" alt="" />
             </a>
             <div className="portfolio-caption">
-              <h4>Generator</h4>
+              <h4>Matrix Sign</h4>
               <h6 className="projectbath">value 9,999,999 bath</h6>
             </div>
           </div>
@@ -213,10 +235,14 @@ const ProjectUs = () => {
                   <i className="fa fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img src={SteelGuardrail} className="img-responsive" alt="" />
+              <img
+                src={RadioCommunicationSystem}
+                className="img-responsive"
+                alt=""
+              />
             </a>
             <div className="portfolio-caption">
-              <h4>NX Witness</h4>
+              <h4>Radio Communication System</h4>
               <h6 className="projectbath">value 9,999,999 bath</h6>
             </div>
           </div>
@@ -233,10 +259,10 @@ const ProjectUs = () => {
                   <i className="fa fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img src={SteelGuardrail} className="img-responsive" alt="" />
+              <img src={ClockSystem} className="img-responsive" alt="" />
             </a>
             <div className="portfolio-caption">
-              <h4>CCTV Weight Station</h4>
+              <h4>Clock System</h4>
               <h6 className="projectbath">value 9,999,999 bath</h6>
             </div>
           </div>
@@ -253,10 +279,14 @@ const ProjectUs = () => {
                   <i className="fa fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img src={SteelGuardrail} className="img-responsive" alt="" />
+              <img
+                src={MultiLaneFreeFlowSystem}
+                className="img-responsive"
+                alt=""
+              />
             </a>
             <div className="portfolio-caption">
-              <h4>CCB Control Center</h4>
+              <h4>Multi Lane Free Flow System</h4>
               <h6 className="projectbath">value 9,999,999 bath</h6>
             </div>
           </div>
@@ -273,10 +303,14 @@ const ProjectUs = () => {
                   <i className="fa fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img src={SteelGuardrail} className="img-responsive" alt="" />
+              <img
+                src={ElectricalOnTheRoad}
+                className="img-responsive"
+                alt=""
+              />
             </a>
             <div className="portfolio-caption">
-              <h4>Heightweige Control Center</h4>
+              <h4>Electrical On TheRoad</h4>
               <h6 className="projectbath">value 9,999,999 bath</h6>
             </div>
           </div>
@@ -293,10 +327,14 @@ const ProjectUs = () => {
                   <i className="fa fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img src={SteelGuardrail} className="img-responsive" alt="" />
+              <img
+                src={WaterLevelMeasurementSystem}
+                className="img-responsive"
+                alt=""
+              />
             </a>
             <div className="portfolio-caption">
-              <h4>MS Lane Control</h4>
+              <h4>Water Level Measurement System</h4>
               <h6 className="projectbath">value 9,999,999 bath</h6>
             </div>
           </div>
@@ -313,10 +351,10 @@ const ProjectUs = () => {
                   <i className="fa fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img src={SteelGuardrail} className="img-responsive" alt="" />
+              <img src={CATTelecomNode} className="img-responsive" alt="" />
             </a>
             <div className="portfolio-caption">
-              <h4>Kingpin</h4>
+              <h4>CAT Telecom Node</h4>
               <h6 className="projectbath">value 9,999,999 bath</h6>
             </div>
           </div>
