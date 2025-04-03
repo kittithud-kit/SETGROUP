@@ -1,5 +1,5 @@
 import React from "react";
-import "./ProjectItem.css";
+import "./ProjectUsItem.css";
 import setlogo from "../assets/images/logo.png";
 import dohlogo from "../assets/images/AboutUs/logo-doh.png";
 

@@ -76,7 +76,7 @@ const ProjectUs = () => {
               <img src={CCTVWeightstation} className="img-responsive" alt="" />
             </a>
             <div className="portfolio-caption">
-              <h4>CCTVWeightstation</h4>
+              <h4>CCTV Weight Station</h4>
               <h6 className="projectbath">value 9,999,999 bath</h6>
             </div>
           </div>
@@ -96,7 +96,7 @@ const ProjectUs = () => {
               <img src={ClassificationLPR} className="img-responsive" alt="" />
             </a>
             <div className="portfolio-caption">
-              <h4>ClassificationLPR</h4>
+              <h4>Classification LPR</h4>
               <h6 className="projectbath">value 9,999,999 bath</h6>
             </div>
           </div>
@@ -116,7 +116,7 @@ const ProjectUs = () => {
               <img src={SteelGuardrail} className="img-responsive" alt="" />
             </a>
             <div className="portfolio-caption">
-              <h4>SteelGuardrail</h4>
+              <h4>Steel Guardrail</h4>
               <h6 className="projectbath">value 9,999,999 bath</h6>
             </div>
           </div>

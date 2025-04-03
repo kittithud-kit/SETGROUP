@@ -7,7 +7,12 @@
   background-clip: border-box;
   -webkit-box-shadow: none;
   box-shadow: none;
-  background-color: #424040;
+  background-image: url("/src/assets/images/lovepik-vehicle-traffic-background-image_401029190.jpg");
+  background-size: cover; /* ปรับขนาดภาพให้ครอบคลุมเต็มพื้นที่ */
+  background-position: center; /* จัดกึ่งกลางภาพ */
+  /* background-repeat: no-repeat; */ /* ไม่ให้ภาพซ้ำ */
+  width: 100vw; /* ให้ความกว้างเต็มหน้าจอ */
+  /* height: 100vh;  /* ให้ความสูงเต็มหน้าจอ */
 }
 
 .portfolio-modal .modal-content h2 {
