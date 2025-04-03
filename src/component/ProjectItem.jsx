@@ -354,7 +354,21 @@ const ProjectItem = () => {
                     src="/public/images/Project/CCTV Service Area/งานติดตั้งตู้ควบคุม กม.21 สาย7 ขาออก_๒๑๐๙๐๗_1.jpg"
                     alt=""
                   />
-                  <p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+                  <p>
+                    Automatic Transfer Switch (ATS) control panel is a crucial
+                    component in backup power systems. It automatically switches
+                    the power supply between the main power source and a
+                    generator in the event of a power outage. When the main
+                    power fails, the ATS detects the issue, starts the
+                    generator, and transfers the load to the backup source. Once
+                    the main power is restored, the ATS seamlessly switches the
+                    load back to ensure continuous power supply. An ATS system
+                    enhances operational efficiency by minimizing downtime and
+                    ensuring a smooth transition between power sources. It is
+                    essential for critical facilities such as hospitals, data
+                    centers, and large commercial buildings where reliable power
+                    is necessary.
+                  </p>
 
                   <button
                     type="button"
@@ -393,7 +407,19 @@ const ProjectItem = () => {
                   <img className="img-responsive-item" src={SensorGen} alt="" />
 
                   <p>
-                    The **CCTV Service Area** system is a project that installs
+                    Sensor Generator is a device used to monitor and control the
+                    operation of cooling fans and temperature levels within a
+                    generator, enhancing efficiency and ensuring the safety of
+                    backup power systems. The fan monitoring sensor checks the
+                    functionality of the cooling fan, and if it stops working or
+                    malfunctions, the system can issue an alert or shut down the
+                    generator to prevent damage. The temperature monitoring
+                    sensor detects the generator’s temperature, and if it
+                    exceeds a set threshold, the system triggers an alert or
+                    activates the cooling mechanism to reduce the temperature.
+                    Implementing a Sensor Generator helps extend the generator’s
+                    lifespan, reduces the risk of overheating, and prevents
+                    potential damage caused by cooling system malfunctions.
                   </p>
 
                   <button
@@ -436,7 +462,19 @@ const ProjectItem = () => {
                     src="/public/images/Project/CCTV Service Area/งานติดตั้งตู้ควบคุม กม.21 สาย7 ขาออก_๒๑๐๙๐๗_1.jpg"
                     alt=""
                   />
-                  <p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+                  <p>
+                    Generator is a device that converts mechanical energy into
+                    electrical energy through the principle of electromagnetic
+                    induction. It supplies electricity to various systems and
+                    equipment in cases where the main power source fails or is
+                    unavailable. Generators are widely used in hospitals, data
+                    centers, industrial plants, and commercial buildings to
+                    ensure continuous operations without interruptions. They
+                    come in different types and sizes depending on the power
+                    source, such as diesel engines, gasoline engines, and
+                    renewable energy. Choosing the right generator ensures a
+                    stable and efficient backup power system.
+                  </p>
 
                   <button
                     type="button"
@@ -474,7 +512,24 @@ const ProjectItem = () => {
                   <p className="item-intro text-muted">value 9,999,999 bath</p>
                   <img className="img-responsive-item" src={NXWitness} alt="" />
 
-                  <p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+                  <p>
+                    NX Witness is a powerful Video Management System (VMS)
+                    designed for efficient control and management of CCTV
+                    systems. It supports a wide range of camera brands and
+                    allows users to customize settings based on their specific
+                    needs. With its user-friendly interface, NX Witness enables
+                    system administrators to monitor live video feeds, search
+                    recorded footage, and manage user access with ease. It also
+                    supports smart notifications, data analytics, and
+                    integration with other security systems to enhance
+                    surveillance capabilities. The system can run on servers and
+                    various devices while providing remote access through web
+                    browsers and mobile applications, allowing users to monitor
+                    and manage CCTV systems from anywhere at any time. NX
+                    Witness is an ideal solution for businesses, organizations,
+                    and facilities requiring a flexible, secure, and scalable
+                    video management system.
+                  </p>
 
                   <button
                     type="button"
@@ -516,7 +571,25 @@ const ProjectItem = () => {
                     alt=""
                   />
 
-                  <p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+                  <p>
+                    CCTV Weight Station is a surveillance system installed at
+                    truck weighing stations to enhance the accuracy of
+                    monitoring and recording trucks' entry and exit during the
+                    weighing process. CCTV cameras capture both the front and
+                    side views of trucks, allowing for the verification of
+                    license plates, cargo status, and documentation of various
+                    events occurring at the station. Using CCTV at weighing
+                    stations increases safety and helps prevent fraud, as the
+                    recorded footage can serve as evidence in case of disputes
+                    or irregularities in the weighing process. Additionally, it
+                    assists in monitoring overweight trucks, ensuring compliance
+                    with legal weight limits, and promoting safer and more
+                    efficient transportation practices. A CCTV Weight Station is
+                    a crucial tool for improving accuracy, security, and the
+                    overall efficiency of truck weighing operations,
+                    contributing to safer transportation and better logistics
+                    management.
+                  </p>
 
                   <button
                     type="button"
@@ -562,7 +635,23 @@ const ProjectItem = () => {
                     src={CCBControl}
                     alt=""
                   />
-                  <p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+                  <p>
+                    CCB Control Center is a critical hub for managing and
+                    ensuring safety on motorways. It utilizes advanced
+                    technologies such as CCTV cameras and various sensors to
+                    monitor traffic conditions and incidents, including
+                    accidents or traffic congestion, in real-time. The center
+                    works closely with emergency services to provide a swift
+                    response to incidents by dispatching rescue teams or law
+                    enforcement officers to the scene. It also monitors traffic
+                    flow and can issue alerts to drivers through digital signage
+                    or mobile apps in case of traffic slowdowns or accidents. By
+                    leveraging technology for monitoring and control, the CCB
+                    Control Center significantly enhances safety, reduces risks,
+                    and improves the overall driving experience on motorways.
+                    This ensures that drivers can travel with confidence and
+                    reduces the likelihood of accidents on the road.
+                  </p>
 
                   <button
                     type="button"
@@ -608,7 +697,27 @@ const ProjectItem = () => {
                     src={HeightweigeControlCenter}
                     alt=""
                   />
-                  <p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+                  <p>
+                    Weigh Station Control Center is a central management hub for
+                    overseeing truck weighing stations across the country. Its
+                    primary role is to ensure that the process of weighing
+                    trucks is efficient, standardized, and accurately monitored
+                    to prevent overloading, which can harm road infrastructure
+                    and compromise transportation safety. The control center
+                    coordinates with various weighing stations nationwide,
+                    ensuring smooth, continuous operations. It utilizes advanced
+                    technologies such as weight sensors, CCTV cameras, and data
+                    management systems to record and monitor all trucks entering
+                    and exiting the weighing stations. This real-time data
+                    monitoring allows for efficient tracking and immediate
+                    response to any potential violations. By centralizing
+                    operations, the Weigh Station Control Center enhances the
+                    effectiveness of truck weight inspections, reduces the risk
+                    of overloading, and promotes safety within the
+                    transportation system. It also ensures transparency in
+                    operations and enables quick, easy access to data for
+                    improved decision-making and enforcement.
+                  </p>
 
                   <button
                     type="button"
@@ -654,7 +763,23 @@ const ProjectItem = () => {
                     src={MSLaneControl}
                     alt=""
                   />
-                  <p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+                  <p>
+                    MS Lane Control is a traffic light system designed to manage
+                    and regulate the use of lanes on roads, especially in areas
+                    with high traffic volume or where lane usage changes
+                    depending on time of day, such as motorways or highways
+                    during peak traffic hours. The MS Lane Control system uses
+                    traffic signals to determine the status of different lanes,
+                    such as opening or closing certain lanes based on real-time
+                    traffic demands, or changing the direction of traffic flow
+                    during specific times to improve traffic efficiency. The
+                    system adapts to current traffic conditions by using sensors
+                    and vehicle detection systems to make real-time decisions on
+                    lane usage. Implementing MS Lane Control enhances traffic
+                    management efficiency, reduces congestion in certain areas,
+                    and increases road safety, particularly during rush hours
+                    when vehicle numbers are high.
+                  </p>
 
                   <button
                     type="button"
@@ -696,7 +821,24 @@ const ProjectItem = () => {
                     alt=""
                   />
                   <img className="img-responsive-item" src={Kingpin} alt="" />
-                  <p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
+                  <p>
+                    Kingpin is a device installed beneath the road surface to
+                    automatically identify the type of truck passing over it.
+                    Working in conjunction with detection systems and sensors
+                    embedded in the road, Kingpin detects the characteristics of
+                    the truck’s wheels and weight to classify the vehicle, such
+                    as differentiating between large trucks, trailers, or
+                    regular freight trucks. The use of Kingpin enhances the
+                    efficiency of traffic management and truck inspections,
+                    especially in weigh stations or areas that require automatic
+                    vehicle classification. This device operates quickly and
+                    accurately without relying on manual inspection processes,
+                    reducing time and increasing convenience in managing truck
+                    movements. Kingpin is an essential tool in developing
+                    systems for monitoring and controlling road transportation,
+                    contributing to faster, safer, and more efficient operations
+                    in truck-related logistics and traffic management.
+                  </p>
 
                   <button
                     type="button"
