@@ -17,6 +17,7 @@ import About from "./component/About";
 import ProjectItem from "./component/ProjectItem";
 import Team from "./component/Team";
 import ProjectUs from "./component/ProjectUs";
+import ProjectUsItem from "./component/ProjectUsItem";
 import BGoffice from "../src/assets/images/BGoffice.jpg";
 
 import BGVideo from "/src/assets/images/bg-video1.mp4";
@@ -104,6 +105,7 @@ const App = () => {
 
       {/* Portfolio Modals */}
       <ProjectItem />
+      <ProjectUsItem />
     </div>
   );
 };

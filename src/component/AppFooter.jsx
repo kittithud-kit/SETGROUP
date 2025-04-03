@@ -175,10 +175,10 @@ const PageFooter = () => {
                     <a href="#about">About</a>
                   </li>
                   <li>
-                    <a href="#team">Team</a>
+                    <a href="#team">Cliants</a>
                   </li>
                   <li>
-                    <a href="#contact">Contact</a>
+                    <a href="#contact">Contect</a>
                   </li>
                 </ul>
               </div>

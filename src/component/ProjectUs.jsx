@@ -10,7 +10,7 @@ import SteelGuardrail from "../assets/images/Project/Steel Guardrail/S__1867827.
 
 const ProjectUs = () => {
   return (
-    <section id="ProjectUs" className="bg-light-gray">
+    <section id="portfolio" className="bg-light-gray">
       <div className="container">
         <div className="row">
           <div className="col-lg-12 text-center">
@@ -22,124 +22,304 @@ const ProjectUs = () => {
         </div>
         <div className="row">
           {/* Project Modal 1 */}
-          <div className="col-md-4 col-sm-6 ProjectUs-item">
+          <div className="col-md-4 col-sm-6 portfolio-item">
             <a
-              href="#ProjectUsModal1"
-              className="ProjectUs-link"
+              href="#portfolioModal1a"
+              className="portfolio-link"
               data-toggle="modal"
             >
-              <div className="ProjectUs-hover">
-                <div className="ProjectUs-hover-content">
+              <div className="portfolio-hover">
+                <div className="portfolio-hover-content">
                   <i className="fa fa-plus fa-3x"></i>
                 </div>
               </div>
               <img src={FiberOptic} className="img-responsive" alt="" />
             </a>
-            <div className="ProjectUs-caption">
-              <h4>Fiber Optic Motorway 7</h4>
-              <h6 className="projectbath">value 9,999,999 bath</h6>
+            <div className="portfolio-caption">
+              <h4>FiberOptic</h4>
+              <h6 className="projectbath">value 22,899,000 bath</h6>
             </div>
           </div>
 
           {/* Project Modal 2 */}
-          <div className="col-md-4 col-sm-6 ProjectUs-item">
+          <div className="col-md-4 col-sm-6 portfolio-item">
             <a
-              href="#ProjectUsModal2"
-              className="ProjectUs-link"
+              href="#portfolioModal2a"
+              className="portfolio-link"
               data-toggle="modal"
             >
-              <div className="ProjectUs-hover">
-                <div className="ProjectUs-hover-content">
+              <div className="portfolio-hover">
+                <div className="portfolio-hover-content">
                   <i className="fa fa-plus fa-3x"></i>
                 </div>
               </div>
               <img src={ServiceArea} className="img-responsive" alt="" />
             </a>
-            <div className="ProjectUs-caption">
-              <h4>SERVICE AREAS Motorway 7, 9</h4>
+            <div className="portfolio-caption">
+              <h4>ServiceArea</h4>
               <h6 className="projectbath">value 9,999,999 bath</h6>
             </div>
           </div>
 
           {/* Project Modal 3 */}
-          <div className="col-md-4 col-sm-6 ProjectUs-item">
+          <div className="col-md-4 col-sm-6 portfolio-item">
             <a
-              href="#ProjectUsModal3"
-              className="ProjectUs-link"
+              href="#portfolioModal3a"
+              className="portfolio-link"
               data-toggle="modal"
             >
-              <div className="ProjectUs-hover">
-                <div className="ProjectUs-hover-content">
+              <div className="portfolio-hover">
+                <div className="portfolio-hover-content">
                   <i className="fa fa-plus fa-3x"></i>
                 </div>
               </div>
               <img src={CCTVWeightstation} className="img-responsive" alt="" />
             </a>
-            <div className="ProjectUs-caption">
-              <h4>CCTV Over Weight</h4>
+            <div className="portfolio-caption">
+              <h4>CCTVWeightstation</h4>
               <h6 className="projectbath">value 9,999,999 bath</h6>
             </div>
           </div>
 
           {/* Project Modal 4 */}
-          <div className="col-md-4 col-sm-6 ProjectUs-item">
+          <div className="col-md-4 col-sm-6 portfolio-item">
             <a
-              href="#ProjectUsModal4"
-              className="ProjectUs-link"
+              href="#portfolioModal4a"
+              className="portfolio-link"
               data-toggle="modal"
             >
-              <div className="ProjectUs-hover">
-                <div className="ProjectUs-hover-content">
+              <div className="portfolio-hover">
+                <div className="portfolio-hover-content">
                   <i className="fa fa-plus fa-3x"></i>
                 </div>
               </div>
               <img src={ClassificationLPR} className="img-responsive" alt="" />
             </a>
-            <div className="ProjectUs-caption">
-              <h4>Classification LPR</h4>
+            <div className="portfolio-caption">
+              <h4>ClassificationLPR</h4>
               <h6 className="projectbath">value 9,999,999 bath</h6>
             </div>
           </div>
 
           {/* Project Modal 5 */}
-          <div className="col-md-4 col-sm-6 ProjectUs-item">
+          <div className="col-md-4 col-sm-6 portfolio-item">
             <a
-              href="#ProjectUsModal5"
-              className="ProjectUs-link"
+              href="#portfolioModal5a"
+              className="portfolio-link"
               data-toggle="modal"
             >
-              <div className="ProjectUs-hover">
-                <div className="ProjectUs-hover-content">
+              <div className="portfolio-hover">
+                <div className="portfolio-hover-content">
                   <i className="fa fa-plus fa-3x"></i>
                 </div>
               </div>
               <img src={SteelGuardrail} className="img-responsive" alt="" />
             </a>
-            <div className="ProjectUs-caption">
-              <h4>CSteel Guardrail</h4>
+            <div className="portfolio-caption">
+              <h4>SteelGuardrail</h4>
               <h6 className="projectbath">value 9,999,999 bath</h6>
             </div>
           </div>
 
           {/* Project Modal 6 */}
+          <div className="col-md-4 col-sm-6 portfolio-item">
+            <a
+              href="#portfolioModal6a"
+              className="portfolio-link"
+              data-toggle="modal"
+            >
+              <div className="portfolio-hover">
+                <div className="portfolio-hover-content">
+                  <i className="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img src={SteelGuardrail} className="img-responsive" alt="" />
+            </a>
+            <div className="portfolio-caption">
+              <h4>Emergency Telephone System</h4>
+              <h6 className="projectbath">value 9,999,999 bath</h6>
+            </div>
+          </div>
 
           {/* Project Modal 7 */}
+          <div className="col-md-4 col-sm-6 portfolio-item">
+            <a
+              href="#portfolioModal7a"
+              className="portfolio-link"
+              data-toggle="modal"
+            >
+              <div className="portfolio-hover">
+                <div className="portfolio-hover-content">
+                  <i className="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img src={SteelGuardrail} className="img-responsive" alt="" />
+            </a>
+            <div className="portfolio-caption">
+              <h4>ATS</h4>
+              <h6 className="projectbath">value 9,999,999 bath</h6>
+            </div>
+          </div>
 
           {/* Project Modal 8 */}
+          <div className="col-md-4 col-sm-6 portfolio-item">
+            <a
+              href="#portfolioModal8a"
+              className="portfolio-link"
+              data-toggle="modal"
+            >
+              <div className="portfolio-hover">
+                <div className="portfolio-hover-content">
+                  <i className="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img src={SteelGuardrail} className="img-responsive" alt="" />
+            </a>
+            <div className="portfolio-caption">
+              <h4>Sensor Generator</h4>
+              <h6 className="projectbath">value 9,999,999 bath</h6>
+            </div>
+          </div>
 
           {/* Project Modal 9 */}
+          <div className="col-md-4 col-sm-6 portfolio-item">
+            <a
+              href="#portfolioModal9a"
+              className="portfolio-link"
+              data-toggle="modal"
+            >
+              <div className="portfolio-hover">
+                <div className="portfolio-hover-content">
+                  <i className="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img src={SteelGuardrail} className="img-responsive" alt="" />
+            </a>
+            <div className="portfolio-caption">
+              <h4>Generator</h4>
+              <h6 className="projectbath">value 9,999,999 bath</h6>
+            </div>
+          </div>
 
           {/* Project Modal 10 */}
+          <div className="col-md-4 col-sm-6 portfolio-item">
+            <a
+              href="#portfolioModal10a"
+              className="portfolio-link"
+              data-toggle="modal"
+            >
+              <div className="portfolio-hover">
+                <div className="portfolio-hover-content">
+                  <i className="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img src={SteelGuardrail} className="img-responsive" alt="" />
+            </a>
+            <div className="portfolio-caption">
+              <h4>NX Witness</h4>
+              <h6 className="projectbath">value 9,999,999 bath</h6>
+            </div>
+          </div>
 
           {/* Project Modal 11 */}
+          <div className="col-md-4 col-sm-6 portfolio-item">
+            <a
+              href="#portfolioModal11a"
+              className="portfolio-link"
+              data-toggle="modal"
+            >
+              <div className="portfolio-hover">
+                <div className="portfolio-hover-content">
+                  <i className="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img src={SteelGuardrail} className="img-responsive" alt="" />
+            </a>
+            <div className="portfolio-caption">
+              <h4>CCTV Weight Station</h4>
+              <h6 className="projectbath">value 9,999,999 bath</h6>
+            </div>
+          </div>
 
           {/* Project Modal 12 */}
+          <div className="col-md-4 col-sm-6 portfolio-item">
+            <a
+              href="#portfolioModal12a"
+              className="portfolio-link"
+              data-toggle="modal"
+            >
+              <div className="portfolio-hover">
+                <div className="portfolio-hover-content">
+                  <i className="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img src={SteelGuardrail} className="img-responsive" alt="" />
+            </a>
+            <div className="portfolio-caption">
+              <h4>CCB Control Center</h4>
+              <h6 className="projectbath">value 9,999,999 bath</h6>
+            </div>
+          </div>
 
           {/* Project Modal 13 */}
+          <div className="col-md-4 col-sm-6 portfolio-item">
+            <a
+              href="#portfolioModal13a"
+              className="portfolio-link"
+              data-toggle="modal"
+            >
+              <div className="portfolio-hover">
+                <div className="portfolio-hover-content">
+                  <i className="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img src={SteelGuardrail} className="img-responsive" alt="" />
+            </a>
+            <div className="portfolio-caption">
+              <h4>Heightweige Control Center</h4>
+              <h6 className="projectbath">value 9,999,999 bath</h6>
+            </div>
+          </div>
 
           {/* Project Modal 14 */}
+          <div className="col-md-4 col-sm-6 portfolio-item">
+            <a
+              href="#portfolioModal14a"
+              className="portfolio-link"
+              data-toggle="modal"
+            >
+              <div className="portfolio-hover">
+                <div className="portfolio-hover-content">
+                  <i className="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img src={SteelGuardrail} className="img-responsive" alt="" />
+            </a>
+            <div className="portfolio-caption">
+              <h4>MS Lane Control</h4>
+              <h6 className="projectbath">value 9,999,999 bath</h6>
+            </div>
+          </div>
 
           {/* Project Modal 15 */}
+          <div className="col-md-4 col-sm-6 portfolio-item">
+            <a
+              href="#portfolioModal15a"
+              className="portfolio-link"
+              data-toggle="modal"
+            >
+              <div className="portfolio-hover">
+                <div className="portfolio-hover-content">
+                  <i className="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img src={SteelGuardrail} className="img-responsive" alt="" />
+            </a>
+            <div className="portfolio-caption">
+              <h4>Kingpin</h4>
+              <h6 className="projectbath">value 9,999,999 bath</h6>
+            </div>
+          </div>
         </div>
       </div>
     </section>
