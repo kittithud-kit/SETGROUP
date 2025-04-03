@@ -46,8 +46,8 @@ const ProjectUs = () => {
               <img src={FiberOptic} className="img-responsive" alt="" />
             </a>
             <div className="portfolio-caption">
-              <h4>FiberOptic</h4>
-              <h6 className="projectbath">value 22,899,000 bath</h6>
+              <h4>Fiber Optic</h4>
+              <h6 className="projectbath">value 9,999,000 bath</h6>
             </div>
           </div>
 
@@ -66,7 +66,7 @@ const ProjectUs = () => {
               <img src={ServiceArea} className="img-responsive" alt="" />
             </a>
             <div className="portfolio-caption">
-              <h4>ServiceArea</h4>
+              <h4>Service Area</h4>
               <h6 className="projectbath">value 9,999,999 bath</h6>
             </div>
           </div>
@@ -86,7 +86,7 @@ const ProjectUs = () => {
               <img src={CCTVWeightstation} className="img-responsive" alt="" />
             </a>
             <div className="portfolio-caption">
-              <h4>CCTV Weight Station</h4>
+              <h4>CCTV Motorway</h4>
               <h6 className="projectbath">value 9,999,999 bath</h6>
             </div>
           </div>
@@ -174,7 +174,7 @@ const ProjectUs = () => {
               />
             </a>
             <div className="portfolio-caption">
-              <h4>Automatic Classification System</h4>
+              <h4>Advance Traffic Management System</h4>
               <h6 className="projectbath">value 9,999,999 bath</h6>
             </div>
           </div>
