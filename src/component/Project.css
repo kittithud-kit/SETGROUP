@@ -24,7 +24,7 @@
   width: 100%;
   height: 100%;
   opacity: 0;
-  background: #ffffff73;
+  background: #d6333373;
   -webkit-transition: all ease 0.5s;
   -moz-transition: all ease 0.5s;
   transition: all ease 0.5s;
@@ -78,12 +78,13 @@
   padding: 25px;
   max-width: 400px;
   text-align: center;
-  background-color: #fff;
+  background-color: #3736366b;
 }
 
 #portfolio .portfolio-item .portfolio-caption h4 {
   margin: 0;
   text-transform: none;
+  color: #b7b4b4;
 }
 
 #portfolio .portfolio-item .portfolio-caption p {
@@ -109,6 +110,6 @@
 }
 
 .projectbath {
-  color: rgb(74, 74, 71);
+  color: #b7b4b4;
   font-style: italic;
 }
