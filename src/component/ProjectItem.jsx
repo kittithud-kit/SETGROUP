@@ -596,7 +596,7 @@ const ProjectItem = () => {
             <div className="row">
               <div className="col-lg-8 col-lg-offset-2">
                 <div className="modal-body">
-                  <h2>Heightweige Control Center</h2>
+                  <h2>Weigh Station Control Center</h2>
                   <p className="item-intro text-muted">value 9,999,999 bath</p>
                   <img
                     className="img-responsive-item"

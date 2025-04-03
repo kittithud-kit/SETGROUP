@@ -289,7 +289,7 @@ const Project = () => {
               />
             </a>
             <div className="portfolio-caption">
-              <h4>Heightweige Control Center</h4>
+              <h4>Weigh Station Control Center</h4>
               <h6 className="projectbath">value 9,999,999 bath</h6>
             </div>
           </div>
