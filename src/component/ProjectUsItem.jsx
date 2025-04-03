@@ -11,6 +11,14 @@ import ClassificationLPR from "../assets/images/Project/Classification-LPR  ด�
 import SteelGuardrail from "../assets/images/Project/Steel Guardrail/S__1867827.jpg";
 import HorizontalDirectionalDrilling from "../assets/images/Project/HDD/ตั้งเครื่อง.bmp";
 import AutomaticClassificationSystem from "../assets/images/Project/Automatic Classification System/2.jpg";
+import ImageProcessingDetectorSystem from "../assets/images/Project/Image Processing Detector System/2.jpg";
+import MatrixSign from "../assets/images/Project/Matrix Sign/1743671845909.jpg";
+import RadioCommunicationSystem from "../assets/images/Project/Radio Communication System/1743672446510.jpg";
+import ClockSystem from "../assets/images/Project/Clock System/1.jpg";
+import MultiLaneFreeFlowSystem from "../assets/images/Project/Multi Lane Free Flow System/1.png";
+import ElectricalOnTheRoad from "../assets/images/Project/Electrical work on the road/1743673364432.jpg";
+import WaterLevelMeasurementSystem from "../assets/images/Project/Water Level Measurement System/1.png";
+import CATTelecomNode from "../assets/images/Project/CAT Telecom Node/1743674577744.jpg";
 
 const ProjectUsItem = () => {
   return (
@@ -431,11 +439,11 @@ const ProjectUsItem = () => {
             <div className="row">
               <div className="col-lg-8 col-lg-offset-2">
                 <div className="modal-body">
-                  <h2>Sensor Generator</h2>
+                  <h2>Image Processing Detector System</h2>
                   <p className="item-intro text-muted">value 9,999,999 bath</p>
                   <img
                     className="img-responsive-item"
-                    src={SteelGuardrail}
+                    src={ImageProcessingDetectorSystem}
                     alt=""
                   />
 
@@ -475,11 +483,11 @@ const ProjectUsItem = () => {
             <div className="row">
               <div className="col-lg-8 col-lg-offset-2">
                 <div className="modal-body">
-                  <h2>Generator</h2>
+                  <h2>Matrix Sign</h2>
                   <p className="item-intro text-muted">value 9,999,999 bath</p>
                   <img
                     className="img-responsive-item"
-                    src={SteelGuardrail}
+                    src={MatrixSign}
                     alt=""
                   />
                   <img
@@ -521,11 +529,11 @@ const ProjectUsItem = () => {
             <div className="row">
               <div className="col-lg-8 col-lg-offset-2">
                 <div className="modal-body">
-                  <h2>NX Witness</h2>
+                  <h2>Radio Communication System</h2>
                   <p className="item-intro text-muted">value 9,999,999 bath</p>
                   <img
                     className="img-responsive-item"
-                    src={SteelGuardrail}
+                    src={RadioCommunicationSystem}
                     alt=""
                   />
 
@@ -563,11 +571,11 @@ const ProjectUsItem = () => {
             <div className="row">
               <div className="col-lg-8 col-lg-offset-2">
                 <div className="modal-body">
-                  <h2>CCTV Weight Station</h2>
+                  <h2>Clock System</h2>
                   <p className="item-intro text-muted">value 9,999,999 bath</p>
                   <img
                     className="img-responsive-item"
-                    src={SteelGuardrail}
+                    src={ClockSystem}
                     alt=""
                   />
 
@@ -605,7 +613,7 @@ const ProjectUsItem = () => {
             <div className="row">
               <div className="col-lg-8 col-lg-offset-2">
                 <div className="modal-body">
-                  <h2>CCB Control Center</h2>
+                  <h2>MultiLane Free Flow System</h2>
                   <p className="item-intro text-muted">value 9,999,999 bath</p>
                   <img
                     className="img-responsive-item"
@@ -614,7 +622,7 @@ const ProjectUsItem = () => {
                   />
                   <img
                     className="img-responsive-item"
-                    src={SteelGuardrail}
+                    src={MultiLaneFreeFlowSystem}
                     alt=""
                   />
                   <p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
@@ -651,7 +659,7 @@ const ProjectUsItem = () => {
             <div className="row">
               <div className="col-lg-8 col-lg-offset-2">
                 <div className="modal-body">
-                  <h2>Heightweige Control Center</h2>
+                  <h2>ElectricalOnTheRoad</h2>
                   <p className="item-intro text-muted">value 9,999,999 bath</p>
                   <img
                     className="img-responsive-item"
@@ -660,7 +668,7 @@ const ProjectUsItem = () => {
                   />
                   <img
                     className="img-responsive-item"
-                    src={SteelGuardrail}
+                    src={ElectricalOnTheRoad}
                     alt=""
                   />
                   <p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
@@ -697,7 +705,7 @@ const ProjectUsItem = () => {
             <div className="row">
               <div className="col-lg-8 col-lg-offset-2">
                 <div className="modal-body">
-                  <h2>MS Lane Control</h2>
+                  <h2>Water Level Measurement System</h2>
                   <p className="item-intro text-muted">value 9,999,999 bath</p>
                   <img
                     className="img-responsive-item"
@@ -706,7 +714,7 @@ const ProjectUsItem = () => {
                   />
                   <img
                     className="img-responsive-item"
-                    src={SteelGuardrail}
+                    src={WaterLevelMeasurementSystem}
                     alt=""
                   />
                   <p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
@@ -743,7 +751,7 @@ const ProjectUsItem = () => {
             <div className="row">
               <div className="col-lg-8 col-lg-offset-2">
                 <div className="modal-body">
-                  <h2>Kingpin</h2>
+                  <h2>CAT Telecom Node</h2>
                   <p className="item-intro text-muted">value 9,999,999 bath</p>
                   <img
                     className="img-responsive-item"
@@ -752,7 +760,7 @@ const ProjectUsItem = () => {
                   />
                   <img
                     className="img-responsive-item"
-                    src={SteelGuardrail}
+                    src={CATTelecomNode}
                     alt=""
                   />
                   <p>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>
