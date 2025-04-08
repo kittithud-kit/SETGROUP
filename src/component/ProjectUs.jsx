@@ -47,7 +47,7 @@ const ProjectUs = () => {
             </a>
             <div className="portfolio-caption">
               <h4>Fiber Optic</h4>
-              <h6 className="projectbath">value 9,999,000 bath</h6>
+              {/* <h6 className="projectbath">value 9,999,000 bath</h6> */}
             </div>
           </div>
 
@@ -67,7 +67,7 @@ const ProjectUs = () => {
             </a>
             <div className="portfolio-caption">
               <h4>Service Area</h4>
-              <h6 className="projectbath">value 9,999,999 bath</h6>
+              {/* <h6 className="projectbath">value 9,999,999 bath</h6> */}
             </div>
           </div>
 
@@ -87,7 +87,7 @@ const ProjectUs = () => {
             </a>
             <div className="portfolio-caption">
               <h4>CCTV Motorway</h4>
-              <h6 className="projectbath">value 9,999,999 bath</h6>
+              {/* <h6 className="projectbath">value 9,999,999 bath</h6> */}
             </div>
           </div>
 
@@ -107,7 +107,7 @@ const ProjectUs = () => {
             </a>
             <div className="portfolio-caption">
               <h4>Classification LPR</h4>
-              <h6 className="projectbath">value 9,999,999 bath</h6>
+              {/* <h6 className="projectbath">value 9,999,999 bath</h6> */}
             </div>
           </div>
 
@@ -127,7 +127,7 @@ const ProjectUs = () => {
             </a>
             <div className="portfolio-caption">
               <h4>Steel Guardrail</h4>
-              <h6 className="projectbath">value 9,999,999 bath</h6>
+              {/* <h6 className="projectbath">value 9,999,999 bath</h6> */}
             </div>
           </div>
 
@@ -151,7 +151,7 @@ const ProjectUs = () => {
             </a>
             <div className="portfolio-caption">
               <h4>Horizontal Directional Drilling</h4>
-              <h6 className="projectbath">value 9,999,999 bath</h6>
+              {/* <h6 className="projectbath">value 9,999,999 bath</h6> */}
             </div>
           </div>
 
@@ -175,7 +175,7 @@ const ProjectUs = () => {
             </a>
             <div className="portfolio-caption">
               <h4>Advance Traffic Management System</h4>
-              <h6 className="projectbath">value 9,999,999 bath</h6>
+              {/* <h6 className="projectbath">value 9,999,999 bath</h6> */}
             </div>
           </div>
 
@@ -199,7 +199,7 @@ const ProjectUs = () => {
             </a>
             <div className="portfolio-caption">
               <h4>Image Processing Detector System</h4>
-              <h6 className="projectbath">value 9,999,999 bath</h6>
+              {/* <h6 className="projectbath">value 9,999,999 bath</h6> */}
             </div>
           </div>
 
@@ -219,7 +219,7 @@ const ProjectUs = () => {
             </a>
             <div className="portfolio-caption">
               <h4>Matrix Sign</h4>
-              <h6 className="projectbath">value 9,999,999 bath</h6>
+              {/* <h6 className="projectbath">value 9,999,999 bath</h6> */}
             </div>
           </div>
 
@@ -243,7 +243,7 @@ const ProjectUs = () => {
             </a>
             <div className="portfolio-caption">
               <h4>Radio Communication System</h4>
-              <h6 className="projectbath">value 9,999,999 bath</h6>
+              {/* <h6 className="projectbath">value 9,999,999 bath</h6> */}
             </div>
           </div>
 
@@ -263,7 +263,7 @@ const ProjectUs = () => {
             </a>
             <div className="portfolio-caption">
               <h4>Clock System</h4>
-              <h6 className="projectbath">value 9,999,999 bath</h6>
+              {/* <h6 className="projectbath">value 9,999,999 bath</h6> */}
             </div>
           </div>
 
@@ -287,7 +287,7 @@ const ProjectUs = () => {
             </a>
             <div className="portfolio-caption">
               <h4>Multi Lane Free Flow System</h4>
-              <h6 className="projectbath">value 9,999,999 bath</h6>
+              {/* <h6 className="projectbath">value 9,999,999 bath</h6> */}
             </div>
           </div>
 
@@ -311,7 +311,7 @@ const ProjectUs = () => {
             </a>
             <div className="portfolio-caption">
               <h4>Electrical On TheRoad</h4>
-              <h6 className="projectbath">value 9,999,999 bath</h6>
+              {/* <h6 className="projectbath">value 9,999,999 bath</h6> */}
             </div>
           </div>
 
@@ -335,7 +335,7 @@ const ProjectUs = () => {
             </a>
             <div className="portfolio-caption">
               <h4>Water Level Measurement System</h4>
-              <h6 className="projectbath">value 9,999,999 bath</h6>
+              {/* <h6 className="projectbath">value 9,999,999 bath</h6> */}
             </div>
           </div>
 
@@ -355,7 +355,7 @@ const ProjectUs = () => {
             </a>
             <div className="portfolio-caption">
               <h4>CAT Telecom Node</h4>
-              <h6 className="projectbath">value 9,999,999 bath</h6>
+              {/* <h6 className="projectbath">value 9,999,999 bath</h6> */}
             </div>
           </div>
         </div>

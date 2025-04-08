@@ -6,7 +6,11 @@ import dohlogo from "../assets/images/AboutUs/logo-doh.png";
 /* Images */
 import Centrallab from "../assets/images/Project/Project Highlight/Central Leb/ความคืบหน้า_๒๑๐๑๐๗_26.jpg";
 import ATMS from "../assets/images/Project/Project Highlight/Pattaya/ATMS/ATMS-FD.png";
-import TOLL from "../assets/images/Project/Project Highlight/Thabchang/toll.jpg";
+import TOLL from "../assets/images/Project/Project Highlight/Thanya/1.jpg";
+import TOLL32 from "../assets/images/Project/Project Highlight/Thabchang/toll.jpg";
+import TOLL33 from "../assets/images/Project/Project Highlight/TOLL 3.3/1.jpg";
+import TOLL34 from "../assets/images/Project/Project Highlight/TOLL 3.4/1.jpg";
+
 import VMS from "../assets/images/Project/Project Highlight/Thabchang/VMS/4.jpg";
 import Oracle from "../assets/images/Project/Project Highlight/Thabchang/Oracle/1.png";
 import ETS from "../assets/images/Project/Project Highlight/Pattaya/ETS/1.jpg";
@@ -99,7 +103,7 @@ const ProjectItem = () => {
               <div className="col-lg-8 col-lg-offset-2">
                 <div className="modal-body">
                   <h2>ATMS-FD</h2>
-                  <p className="item-intro text-muted">value 9,999,999 bath</p>
+                  <p className="item-intro text-muted">value - bath</p>
                   <img className="img-responsive-item" src={ATMS} alt="" />
                   <p>
                     The ATMS (Advanced Traffic Management System) is an
@@ -129,7 +133,7 @@ const ProjectItem = () => {
         </div>
       </div>
 
-      {/* Project Modal 3 */}
+      {/* Project Modal 3.1 */}
       <div
         className="portfolio-modal modal fade"
         id="portfolioModal3"
@@ -147,20 +151,149 @@ const ProjectItem = () => {
             <div className="row">
               <div className="col-lg-8 col-lg-offset-2">
                 <div className="modal-body">
-                  <h2>TOLL</h2>
-                  <p className="item-intro text-muted">value 9,999,999 bath</p>
+                  <h2>Motorway Route 7 Phase III Project</h2>
+                  <p className="item-intro text-muted">
+                    value 1,200,000,000 bath
+                  </p>
                   <img className="img-responsive-item" src={TOLL} alt="" />
                   <p>
-                    The Toll System is an advanced technology used for efficient
-                    toll collection on roads, expressways, and bridges, reducing
-                    congestion and enhancing convenience for drivers. This
-                    system utilizes RFID, Automatic Number Plate Recognition
-                    (ANPR), or Electronic Toll Collection (ETC) to verify and
-                    charge toll fees without requiring vehicles to stop. This
-                    reduces travel time and lowers pollution caused by traffic
-                    congestion. The Toll System helps generate revenue for
-                    infrastructure projects and enables governments or private
-                    entities to manage road networks more effectively.
+                    Motorway route 7 phase III is highway connect Bangkok,
+                    Chonburi, Laem Chabang Port and Pattaya city To U-Tapao
+                    International Airport.
+                  </p>
+
+                  <button
+                    type="button"
+                    className="btn btn-primary"
+                    data-dismiss="modal"
+                  >
+                    <i className="fa fa-times"></i> Close Project
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Project Modal 3.2 */}
+      <div
+        className="portfolio-modal modal fade"
+        id="portfolioModal32"
+        tabIndex="-1"
+        role="dialog"
+        aria-hidden="true"
+      >
+        <div className="modal-content">
+          <div className="close-modal" data-dismiss="modal">
+            <div className="lr">
+              <div className="rl"></div>
+            </div>
+          </div>
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-8 col-lg-offset-2">
+                <div className="modal-body">
+                  <h2>
+                    Improve Thanyaburi Toll Plaza on Motorway Route 9 Project
+                  </h2>
+                  <p className="item-intro text-muted">
+                    value 716,000,000 bath
+                  </p>
+                  <img className="img-responsive-item" src={TOLL32} alt="" />
+                  <p>
+                    Improve efficiency Thanyaburi toll plazas, increasing the
+                    number of toll collection lanes from 20 to 30 lanes and
+                    physical area, to support traffic volume.
+                  </p>
+
+                  <button
+                    type="button"
+                    className="btn btn-primary"
+                    data-dismiss="modal"
+                  >
+                    <i className="fa fa-times"></i> Close Project
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Project Modal 3.3 */}
+      <div
+        className="portfolio-modal modal fade"
+        id="portfolioModal33"
+        tabIndex="-1"
+        role="dialog"
+        aria-hidden="true"
+      >
+        <div className="modal-content">
+          <div className="close-modal" data-dismiss="modal">
+            <div className="lr">
+              <div className="rl"></div>
+            </div>
+          </div>
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-8 col-lg-offset-2">
+                <div className="modal-body">
+                  <h2>
+                    Improve Thubchang Toll Plaza on Motorway Route 9 Project
+                  </h2>
+                  <p className="item-intro text-muted">
+                    value 1,862,403,315 bath
+                  </p>
+                  <img className="img-responsive-item" src={TOLL33} alt="" />
+                  <p>
+                    Improve efficiency Thubchang toll plazas, increasing the
+                    number of toll collection lanes from 20 to 35 lanes and
+                    physical area, to support traffic volume. Including
+                    implement disaster recovery site (DR) for toll collection
+                    and payment system on Motorway Route 9
+                  </p>
+
+                  <button
+                    type="button"
+                    className="btn btn-primary"
+                    data-dismiss="modal"
+                  >
+                    <i className="fa fa-times"></i> Close Project
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Project Modal 3.4 */}
+      <div
+        className="portfolio-modal modal fade"
+        id="portfolioModal34"
+        tabIndex="-1"
+        role="dialog"
+        aria-hidden="true"
+      >
+        <div className="modal-content">
+          <div className="close-modal" data-dismiss="modal">
+            <div className="lr">
+              <div className="rl"></div>
+            </div>
+          </div>
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-8 col-lg-offset-2">
+                <div className="modal-body">
+                  <h2>Motorway Route 7 Phase II Project</h2>
+                  <p className="item-intro text-muted">
+                    value 4,000,000,000 bath
+                  </p>
+                  <img className="img-responsive-item" src={TOLL34} alt="" />
+                  <p>
+                    Motorway route 7 phase II is highway connect between Bangkok
+                    to Chonburi and Pattaya city together. Project Including
                   </p>
 
                   <button
@@ -196,7 +329,7 @@ const ProjectItem = () => {
               <div className="col-lg-8 col-lg-offset-2">
                 <div className="modal-body">
                   <h2>VMS</h2>
-                  <p className="item-intro text-muted">value 9,999,999 bath</p>
+                  <p className="item-intro text-muted">value - bath</p>
                   <img className="img-responsive-item" src={VMS} />
 
                   <p>
@@ -244,7 +377,7 @@ const ProjectItem = () => {
               <div className="col-lg-8 col-lg-offset-2">
                 <div className="modal-body">
                   <h2>Oracle</h2>
-                  <p className="item-intro text-muted">value 9,999,999 bath</p>
+                  <p className="item-intro text-muted">value - bath</p>
                   <img className="img-responsive-item" src={Oracle} alt="" />
 
                   <p>
@@ -293,7 +426,7 @@ const ProjectItem = () => {
               <div className="col-lg-8 col-lg-offset-2">
                 <div className="modal-body">
                   <h2>Emergency Telephone System</h2>
-                  <p className="item-intro text-muted">value 9,999,999 bath</p>
+                  <p className="item-intro text-muted">value - bath</p>
                   <img className="img-responsive-item" src={ETS} alt="" />
                   <img
                     className="img-responsive-item"
@@ -347,7 +480,7 @@ const ProjectItem = () => {
               <div className="col-lg-8 col-lg-offset-2">
                 <div className="modal-body">
                   <h2>ATS</h2>
-                  <p className="item-intro text-muted">value 9,999,999 bath</p>
+                  <p className="item-intro text-muted">value 17,900,000 bath</p>
                   <img className="img-responsive-item" src={ATS} alt="" />
                   <img
                     className="img-responsive-item"
@@ -403,7 +536,7 @@ const ProjectItem = () => {
               <div className="col-lg-8 col-lg-offset-2">
                 <div className="modal-body">
                   <h2>Sensor Generator</h2>
-                  <p className="item-intro text-muted">value 9,999,999 bath</p>
+                  <p className="item-intro text-muted">value 14,900,000 bath</p>
                   <img className="img-responsive-item" src={SensorGen} alt="" />
 
                   <p>
@@ -455,7 +588,7 @@ const ProjectItem = () => {
               <div className="col-lg-8 col-lg-offset-2">
                 <div className="modal-body">
                   <h2>Generator</h2>
-                  <p className="item-intro text-muted">value 9,999,999 bath</p>
+                  <p className="item-intro text-muted">value - bath</p>
                   <img className="img-responsive-item" src={Generator} alt="" />
                   <img
                     className="img-responsive-item"
@@ -509,7 +642,7 @@ const ProjectItem = () => {
               <div className="col-lg-8 col-lg-offset-2">
                 <div className="modal-body">
                   <h2>NX Witness</h2>
-                  <p className="item-intro text-muted">value 9,999,999 bath</p>
+                  <p className="item-intro text-muted">value - bath</p>
                   <img className="img-responsive-item" src={NXWitness} alt="" />
 
                   <p>
@@ -564,7 +697,7 @@ const ProjectItem = () => {
               <div className="col-lg-8 col-lg-offset-2">
                 <div className="modal-body">
                   <h2>CCTV Weight Station</h2>
-                  <p className="item-intro text-muted">value 9,999,999 bath</p>
+                  <p className="item-intro text-muted">value - bath</p>
                   <img
                     className="img-responsive-item"
                     src={CCTVWeightstation}
@@ -624,7 +757,7 @@ const ProjectItem = () => {
               <div className="col-lg-8 col-lg-offset-2">
                 <div className="modal-body">
                   <h2>CCB Control Center</h2>
-                  <p className="item-intro text-muted">value 9,999,999 bath</p>
+                  <p className="item-intro text-muted">value - bath</p>
                   <img
                     className="img-responsive-item"
                     src="/public/images/Project/CCTV Service Area/LINE_ALBUM_SERVICE AREAS Sta.48+000 R M.7_๒๓๐๖๐๖_18.jpg"
@@ -686,7 +819,7 @@ const ProjectItem = () => {
               <div className="col-lg-8 col-lg-offset-2">
                 <div className="modal-body">
                   <h2>Weigh Station Control Center</h2>
-                  <p className="item-intro text-muted">value 9,999,999 bath</p>
+                  <p className="item-intro text-muted">value 9,560,000 bath</p>
                   <img
                     className="img-responsive-item"
                     src="/public/images/Project/CCTV Service Area/LINE_ALBUM_SERVICE AREAS Sta.48+000 R M.7_๒๓๐๖๐๖_18.jpg"
@@ -752,7 +885,7 @@ const ProjectItem = () => {
               <div className="col-lg-8 col-lg-offset-2">
                 <div className="modal-body">
                   <h2>MS Lane Control</h2>
-                  <p className="item-intro text-muted">value 9,999,999 bath</p>
+                  <p className="item-intro text-muted">value - bath</p>
                   <img
                     className="img-responsive-item"
                     src="/public/images/Project/CCTV Service Area/LINE_ALBUM_SERVICE AREAS Sta.48+000 R M.7_๒๓๐๖๐๖_18.jpg"
@@ -814,7 +947,7 @@ const ProjectItem = () => {
               <div className="col-lg-8 col-lg-offset-2">
                 <div className="modal-body">
                   <h2>Kingpin</h2>
-                  <p className="item-intro text-muted">value 9,999,999 bath</p>
+                  <p className="item-intro text-muted">value - bath</p>
                   <img
                     className="img-responsive-item"
                     src="/public/images/Project/CCTV Service Area/LINE_ALBUM_SERVICE AREAS Sta.48+000 R M.7_๒๓๐๖๐๖_18.jpg"

@@ -3,7 +3,11 @@ import "./Project.css";
 /* Images */
 import Centrallab from "../assets/images/Project/Project Highlight/Central Leb/ความคืบหน้า_๒๑๐๑๐๗_26.jpg";
 import ATMS from "../assets/images/Project/Project Highlight/Pattaya/ATMS/ATMS-FD.png";
-import TOLL from "../assets/images/Project/Project Highlight/Thabchang/toll.jpg";
+import TOLL from "../assets/images/Project/Project Highlight/Thanya/1.jpg";
+import TOLL32 from "../assets/images/Project/Project Highlight/Thabchang/toll.jpg";
+import TOLL33 from "../assets/images/Project/Project Highlight/TOLL 3.3/1.jpg";
+import TOLL34 from "../assets/images/Project/Project Highlight/TOLL 3.4/1.jpg";
+
 import VMS from "../assets/images/Project/Project Highlight/Thabchang/VMS/4.jpg";
 import Oracle from "../assets/images/Project/Project Highlight/Thabchang/Oracle/1.png";
 import ETS from "../assets/images/Project/Project Highlight/Pattaya/ETS/1.jpg";
@@ -66,11 +70,11 @@ const Project = () => {
             </a>
             <div className="portfolio-caption">
               <h4>ATMS-FD</h4>
-              <h6 className="projectbath">value 9,999,999 bath</h6>
+              <h6 className="projectbath">value - bath</h6>
             </div>
           </div>
 
-          {/* Project Modal 3 */}
+          {/* Project Modal 3.1 */}
           <div className="col-md-4 col-sm-6 portfolio-item">
             <a
               href="#portfolioModal3"
@@ -85,8 +89,68 @@ const Project = () => {
               <img src={TOLL} className="img-responsive" alt="" />
             </a>
             <div className="portfolio-caption">
-              <h4>TOLL</h4>
-              <h6 className="projectbath">value 9,999,999 bath</h6>
+              <h4>Motorway Route 7 Phase III Project</h4>
+              <h6 className="projectbath">value 1,200,000,000 bath</h6>
+            </div>
+          </div>
+
+          {/* Project Modal 3.2 */}
+          <div className="col-md-4 col-sm-6 portfolio-item">
+            <a
+              href="#portfolioModal32"
+              className="portfolio-link"
+              data-toggle="modal"
+            >
+              <div className="portfolio-hover">
+                <div className="portfolio-hover-content">
+                  <i className="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img src={TOLL32} className="img-responsive" alt="" />
+            </a>
+            <div className="portfolio-caption">
+              <h4>Thubchang Toll Plaza on Motorway 9</h4>
+              <h6 className="projectbath">value 716,000,000 bath</h6>
+            </div>
+          </div>
+
+          {/* Project Modal 3.3 */}
+          <div className="col-md-4 col-sm-6 portfolio-item">
+            <a
+              href="#portfolioModal33"
+              className="portfolio-link"
+              data-toggle="modal"
+            >
+              <div className="portfolio-hover">
+                <div className="portfolio-hover-content">
+                  <i className="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img src={TOLL33} className="img-responsive" alt="" />
+            </a>
+            <div className="portfolio-caption">
+              <h4>Thubchang Toll Plaza on Motorway 9</h4>
+              <h6 className="projectbath">value 1,862,403,315 bath</h6>
+            </div>
+          </div>
+
+          {/* Project Modal 3.4 */}
+          <div className="col-md-4 col-sm-6 portfolio-item">
+            <a
+              href="#portfolioModal34"
+              className="portfolio-link"
+              data-toggle="modal"
+            >
+              <div className="portfolio-hover">
+                <div className="portfolio-hover-content">
+                  <i className="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img src={TOLL34} className="img-responsive" alt="" />
+            </a>
+            <div className="portfolio-caption">
+              <h4>Motorway 7 Phase II</h4>
+              <h6 className="projectbath">value 4,000,000,000 bath</h6>
             </div>
           </div>
 
@@ -106,7 +170,7 @@ const Project = () => {
             </a>
             <div className="portfolio-caption">
               <h4>VMS</h4>
-              <h6 className="projectbath">value 9,999,999 bath</h6>
+              <h6 className="projectbath">value - bath</h6>
             </div>
           </div>
 
@@ -126,7 +190,7 @@ const Project = () => {
             </a>
             <div className="portfolio-caption">
               <h4>Oracle</h4>
-              <h6 className="projectbath">value 9,999,999 bath</h6>
+              <h6 className="projectbath">value - bath</h6>
             </div>
           </div>
 
@@ -146,7 +210,7 @@ const Project = () => {
             </a>
             <div className="portfolio-caption">
               <h4>Emergency Telephone System</h4>
-              <h6 className="projectbath">value 9,999,999 bath</h6>
+              <h6 className="projectbath">value - bath</h6>
             </div>
           </div>
 
@@ -166,7 +230,7 @@ const Project = () => {
             </a>
             <div className="portfolio-caption">
               <h4>ATS</h4>
-              <h6 className="projectbath">value 9,999,999 bath</h6>
+              <h6 className="projectbath">value 17,900,000 bath</h6>
             </div>
           </div>
 
@@ -186,7 +250,7 @@ const Project = () => {
             </a>
             <div className="portfolio-caption">
               <h4>Sensor Generator</h4>
-              <h6 className="projectbath">value 9,999,999 bath</h6>
+              <h6 className="projectbath">value 14,900,000 bath</h6>
             </div>
           </div>
 
@@ -206,7 +270,7 @@ const Project = () => {
             </a>
             <div className="portfolio-caption">
               <h4>Generator</h4>
-              <h6 className="projectbath">value 9,999,999 bath</h6>
+              <h6 className="projectbath">value - bath</h6>
             </div>
           </div>
 
@@ -226,7 +290,7 @@ const Project = () => {
             </a>
             <div className="portfolio-caption">
               <h4>NX Witness</h4>
-              <h6 className="projectbath">value 9,999,999 bath</h6>
+              <h6 className="projectbath">value - bath</h6>
             </div>
           </div>
 
@@ -246,7 +310,7 @@ const Project = () => {
             </a>
             <div className="portfolio-caption">
               <h4>CCTV Weight Station</h4>
-              <h6 className="projectbath">value 9,999,999 bath</h6>
+              <h6 className="projectbath">value - bath</h6>
             </div>
           </div>
 
@@ -266,7 +330,7 @@ const Project = () => {
             </a>
             <div className="portfolio-caption">
               <h4>CCB Control Center</h4>
-              <h6 className="projectbath">value 9,999,999 bath</h6>
+              <h6 className="projectbath">value - bath</h6>
             </div>
           </div>
 
@@ -290,7 +354,7 @@ const Project = () => {
             </a>
             <div className="portfolio-caption">
               <h4>Weigh Station Control Center</h4>
-              <h6 className="projectbath">value 9,999,999 bath</h6>
+              <h6 className="projectbath">value 9,560,000 bath</h6>
             </div>
           </div>
 
@@ -310,7 +374,7 @@ const Project = () => {
             </a>
             <div className="portfolio-caption">
               <h4>MS Lane Control</h4>
-              <h6 className="projectbath">value 9,999,999 bath</h6>
+              <h6 className="projectbath">value - bath</h6>
             </div>
           </div>
 
@@ -330,7 +394,7 @@ const Project = () => {
             </a>
             <div className="portfolio-caption">
               <h4>Kingpin</h4>
-              <h6 className="projectbath">value 9,999,999 bath</h6>
+              <h6 className="projectbath">value - bath</h6>
             </div>
           </div>
         </div>

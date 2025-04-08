@@ -43,7 +43,7 @@ const ProjectUsItem = () => {
                 <div className="modal-body">
                   {/* <img className="projectlogo" src={dohlogo}></img> */}
                   <h2>Fiber Optic</h2>
-                  <p className="item-intro text-muted">value 22,899,000 bath</p>
+                  {/* <p className="item-intro text-muted">value 22,899,000 bath</p> */}
                   <img
                     className="img-responsive-item"
                     src={FiberOptic}
@@ -103,7 +103,7 @@ const ProjectUsItem = () => {
               <div className="col-lg-8 col-lg-offset-2">
                 <div className="modal-body">
                   <h2>Service Area</h2>
-                  <p className="item-intro text-muted">value 9,999,999 bath</p>
+                  {/* <p className="item-intro text-muted">value 9,999,999 bath</p> */}
                   <img
                     className="img-responsive-item"
                     src={ServiceArea}
@@ -162,7 +162,7 @@ const ProjectUsItem = () => {
               <div className="col-lg-8 col-lg-offset-2">
                 <div className="modal-body">
                   <h2>CCTV Motorway</h2>
-                  <p className="item-intro text-muted">value 9,999,999 bath</p>
+                  {/* <p className="item-intro text-muted">value 9,999,999 bath</p> */}
                   <img
                     className="img-responsive-item"
                     src={CCTVWeightstation}
@@ -222,7 +222,7 @@ const ProjectUsItem = () => {
               <div className="col-lg-8 col-lg-offset-2">
                 <div className="modal-body">
                   <h2>Classification LPR</h2>
-                  <p className="item-intro text-muted">value 9,999,999 bath</p>
+                  {/* <p className="item-intro text-muted">value 9,999,999 bath</p> */}
                   <img
                     className="img-responsive-item"
                     src={ClassificationLPR}
@@ -282,7 +282,7 @@ const ProjectUsItem = () => {
               <div className="col-lg-8 col-lg-offset-2">
                 <div className="modal-body">
                   <h2>Steel Guardrail</h2>
-                  <p className="item-intro text-muted">value 9,999,999 bath</p>
+                  {/* <p className="item-intro text-muted">value 9,999,999 bath</p> */}
                   <img
                     className="img-responsive-item"
                     src={SteelGuardrail}
@@ -338,7 +338,7 @@ const ProjectUsItem = () => {
               <div className="col-lg-8 col-lg-offset-2">
                 <div className="modal-body">
                   <h2>Horizontal Directional Drilling</h2>
-                  <p className="item-intro text-muted">value 9,999,999 bath</p>
+                  {/* <p className="item-intro text-muted">value 9,999,999 bath</p> */}
                   <img
                     className="img-responsive-item"
                     src={HorizontalDirectionalDrilling}
@@ -399,7 +399,7 @@ const ProjectUsItem = () => {
               <div className="col-lg-8 col-lg-offset-2">
                 <div className="modal-body">
                   <h2>Advance Traffic Management System</h2>
-                  <p className="item-intro text-muted">value 9,999,999 bath</p>
+                  {/* <p className="item-intro text-muted">value 9,999,999 bath</p> */}
                   <img
                     className="img-responsive-item"
                     src={AutomaticClassificationSystem}
@@ -468,7 +468,7 @@ const ProjectUsItem = () => {
               <div className="col-lg-8 col-lg-offset-2">
                 <div className="modal-body">
                   <h2>Image Processing Detector System</h2>
-                  <p className="item-intro text-muted">value 9,999,999 bath</p>
+                  {/* <p className="item-intro text-muted">value 9,999,999 bath</p> */}
                   <img
                     className="img-responsive-item"
                     src={ImageProcessingDetectorSystem}
@@ -531,7 +531,7 @@ const ProjectUsItem = () => {
               <div className="col-lg-8 col-lg-offset-2">
                 <div className="modal-body">
                   <h2>Matrix Sign</h2>
-                  <p className="item-intro text-muted">value 9,999,999 bath</p>
+                  {/* <p className="item-intro text-muted">value 9,999,999 bath</p> */}
                   <img
                     className="img-responsive-item"
                     src={MatrixSign}
@@ -599,7 +599,7 @@ const ProjectUsItem = () => {
               <div className="col-lg-8 col-lg-offset-2">
                 <div className="modal-body">
                   <h2>Radio Communication System</h2>
-                  <p className="item-intro text-muted">value 9,999,999 bath</p>
+                  {/* <p className="item-intro text-muted">value 9,999,999 bath</p> */}
                   <img
                     className="img-responsive-item"
                     src={RadioCommunicationSystem}
@@ -666,7 +666,7 @@ const ProjectUsItem = () => {
               <div className="col-lg-8 col-lg-offset-2">
                 <div className="modal-body">
                   <h2>Clock System</h2>
-                  <p className="item-intro text-muted">value 9,999,999 bath</p>
+                  {/* <p className="item-intro text-muted">value 9,999,999 bath</p> */}
                   <img
                     className="img-responsive-item"
                     src={ClockSystem}
@@ -731,7 +731,7 @@ const ProjectUsItem = () => {
               <div className="col-lg-8 col-lg-offset-2">
                 <div className="modal-body">
                   <h2>MultiLane Free Flow System</h2>
-                  <p className="item-intro text-muted">value 9,999,999 bath</p>
+                  {/* <p className="item-intro text-muted">value 9,999,999 bath</p> */}
                   <img
                     className="img-responsive-item"
                     src="/public/images/Project/CCTV Service Area/LINE_ALBUM_SERVICE AREAS Sta.48+000 R M.7_๒๓๐๖๐๖_18.jpg"
@@ -800,7 +800,7 @@ const ProjectUsItem = () => {
               <div className="col-lg-8 col-lg-offset-2">
                 <div className="modal-body">
                   <h2>ElectricalOnTheRoad</h2>
-                  <p className="item-intro text-muted">value 9,999,999 bath</p>
+                  {/* <p className="item-intro text-muted">value 9,999,999 bath</p> */}
                   <img
                     className="img-responsive-item"
                     src="/public/images/Project/CCTV Service Area/LINE_ALBUM_SERVICE AREAS Sta.48+000 R M.7_๒๓๐๖๐๖_18.jpg"
@@ -869,7 +869,7 @@ const ProjectUsItem = () => {
               <div className="col-lg-8 col-lg-offset-2">
                 <div className="modal-body">
                   <h2>Water Level Measurement System</h2>
-                  <p className="item-intro text-muted">value 9,999,999 bath</p>
+                  {/* <p className="item-intro text-muted">value 9,999,999 bath</p> */}
                   <img
                     className="img-responsive-item"
                     src="/public/images/Project/CCTV Service Area/LINE_ALBUM_SERVICE AREAS Sta.48+000 R M.7_๒๓๐๖๐๖_18.jpg"
@@ -937,7 +937,7 @@ const ProjectUsItem = () => {
               <div className="col-lg-8 col-lg-offset-2">
                 <div className="modal-body">
                   <h2>CAT Telecom Node</h2>
-                  <p className="item-intro text-muted">value 9,999,999 bath</p>
+                  {/* <p className="item-intro text-muted">value 9,999,999 bath</p> */}
                   <img
                     className="img-responsive-item"
                     src="/public/images/Project/CCTV Service Area/LINE_ALBUM_SERVICE AREAS Sta.48+000 R M.7_๒๓๐๖๐๖_18.jpg"
