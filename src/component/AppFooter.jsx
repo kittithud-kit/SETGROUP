@@ -78,8 +78,14 @@ const PageFooter = () => {
                 <div className="footer-widget">
                   <div className="footer-logo">
                     <img src={logo} />
-                    <img src={Settech} />
-                    <img className="footer-logo1" src={LogoSam} />
+                    <img className="footer-logo2" src={Settech} />
+                    <a
+                      href="http://www.samtechnology.co.th/en/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <img className="footer-logo1" src={LogoSam} />
+                    </a>
                     <img src={setgroupretail} />
                   </div>
                   <div className="footer-text">

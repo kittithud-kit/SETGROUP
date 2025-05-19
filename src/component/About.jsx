@@ -55,6 +55,7 @@ const About = () => {
                   </div>
                 </div>
               </li>
+
               <li>
                 <div className="timeline-image img-responsive">
                   <img className="img-responsive imgabout" src={logo} alt="" />
@@ -79,11 +80,17 @@ const About = () => {
 
               <li className="timeline-inverted">
                 <div className="timeline-image">
-                  <img
-                    className="img-responsive imgabout"
-                    src={LogoSam}
-                    alt=""
-                  />
+                  <a
+                    href="http://www.samtechnology.co.th/en/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      className="img-responsive imgabout"
+                      src={LogoSam}
+                      alt=""
+                    />
+                  </a>
                 </div>
                 <div className="timeline-panel">
                   <div className="timeline-heading">
