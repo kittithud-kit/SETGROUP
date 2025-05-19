@@ -105,6 +105,13 @@ const About = () => {
                     <p className="text-muted">
                       Construction Contractor, Electrical System, Mechanical
                     </p>
+                    <a
+                      href="http://www.samtechnology.co.th/en/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      http://www.samtechnology.co.th
+                    </a>
                   </div>
                 </div>
               </li>
