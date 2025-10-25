@@ -17,6 +17,7 @@ import MultiLaneFreeFlowSystem from "../assets/images/Project/Multi Lane Free Fl
 import ElectricalOnTheRoad from "../assets/images/Project/Electrical work on the road/1743673364432.jpg";
 import WaterLevelMeasurementSystem from "../assets/images/Project/Water Level Measurement System/1.png";
 import CATTelecomNode from "../assets/images/Project/CAT Telecom Node/1743674577744.jpg";
+import ReplaceElectrical from "../assets/images/Project/Replace Electrical System/pro.jpg";
 
 const ProjectUs = () => {
   return (
@@ -355,6 +356,26 @@ const ProjectUs = () => {
             </a>
             <div className="portfolio-caption">
               <h4>CAT Telecom Node</h4>
+              {/* <h6 className="projectbath">value 9,999,999 bath</h6> */}
+            </div>
+          </div>
+
+          {/* Project Modal 16 */}
+          <div className="col-md-4 col-sm-6 portfolio-item">
+            <a
+              href="#portfolioModal16a"
+              className="portfolio-link"
+              data-toggle="modal"
+            >
+              <div className="portfolio-hover">
+                <div className="portfolio-hover-content">
+                  <i className="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img src={ReplaceElectrical} className="img-responsive" alt="" />
+            </a>
+            <div className="portfolio-caption">
+              <h4>Replace Electrical System</h4>
               {/* <h6 className="projectbath">value 9,999,999 bath</h6> */}
             </div>
           </div>

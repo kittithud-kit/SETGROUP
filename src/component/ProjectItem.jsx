@@ -6,6 +6,7 @@ import dohlogo from "../assets/images/AboutUs/logo-doh.png";
 /* Images */
 import Centrallab from "../assets/images/Project/Project Highlight/Central Leb/ความคืบหน้า_๒๑๐๑๐๗_26.jpg";
 import ATMS from "../assets/images/Project/Project Highlight/Pattaya/ATMS/ATMS-FD.png";
+import ATMS2 from "../assets/images/Project/Project Highlight/Pattaya/ATMS/1787407.jpg";
 import TOLL from "../assets/images/Project/Project Highlight/Thanya/1.jpg";
 import TOLL32 from "../assets/images/Project/Project Highlight/Thabchang/toll.jpg";
 import TOLL33 from "../assets/images/Project/Project Highlight/TOLL 3.3/1.jpg";
@@ -23,6 +24,21 @@ import CCBControl from "../assets/images/Project/Project Highlight/CCB Control/p
 import HeightweigeControlCenter from "../assets/images/Project/Project Highlight/Heightweige Control Center/Videowall_181025_0002.jpg";
 import MSLaneControl from "../assets/images/Project/Project Highlight/MS Lane Control/5783891.jpg";
 import Kingpin from "../assets/images/Project/Project Highlight/King Pin Motorway/1.jpg";
+import MultilaneFreeflow from "../assets/images/Project/Project Highlight/Multilane Freeflow/1790337_0.jpg";
+import MultilaneFreeflow2 from "../assets/images/Project/Project Highlight/Multilane Freeflow/2.jpg";
+import MultilaneFreeflow3 from "../assets/images/Project/Project Highlight/Multilane Freeflow/3.jpg";
+import MaintenanceMotorway from "../assets/images/Project/Project Highlight/Maintenance Motorway 7 & 9/1.jpg";
+import MaintenanceMotorway2 from "../assets/images/Project/Project Highlight/Maintenance Motorway 7 & 9/2.jpg";
+import MaintenanceMotorway3 from "../assets/images/Project/Project Highlight/Maintenance Motorway 7 & 9/3.jpg";
+import MaintenanceMotorway4 from "../assets/images/Project/Project Highlight/Maintenance Motorway 7 & 9/4.jpg";
+import MaintenanceMotorway5 from "../assets/images/Project/Project Highlight/Maintenance Motorway 7 & 9/5.jpg";
+import MaintenanceMotorway6 from "../assets/images/Project/Project Highlight/Maintenance Motorway 7 & 9/6.jpg";
+import MaintenanceMotorway7 from "../assets/images/Project/Project Highlight/Maintenance Motorway 7 & 9/7.jpg";
+import MaintenanceHighwayWeighpro from "../assets/images/Project/Project Highlight/Maintenance Highway Weigh/pro.jpg";
+import MaintenanceHighwayWeigh1 from "../assets/images/Project/Project Highlight/Maintenance Highway Weigh/1.jpg";
+import MaintenanceHighwayWeigh2 from "../assets/images/Project/Project Highlight/Maintenance Highway Weigh/2.jpg";
+import MaintenanceHighwayWeigh3 from "../assets/images/Project/Project Highlight/Maintenance Highway Weigh/3.jpg";
+import MaintenanceHighwayWeigh4 from "../assets/images/Project/Project Highlight/Maintenance Highway Weigh/4.jpg";
 
 const ProjectItem = () => {
   return (
@@ -105,6 +121,7 @@ const ProjectItem = () => {
                   <h2>ATMS-FD</h2>
                   <p className="item-intro text-muted">value - bath</p>
                   <img className="img-responsive-item" src={ATMS} alt="" />
+                  <img className="img-responsive-item" src={ATMS2} alt="" />
                   <p>
                     The ATMS (Advanced Traffic Management System) is an
                     intelligent traffic management system that utilizes
@@ -971,6 +988,260 @@ const ProjectItem = () => {
                     systems for monitoring and controlling road transportation,
                     contributing to faster, safer, and more efficient operations
                     in truck-related logistics and traffic management.
+                  </p>
+
+                  <button
+                    type="button"
+                    className="btn btn-primary"
+                    data-dismiss="modal"
+                  >
+                    <i className="fa fa-times"></i> Close Project
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Project Modal 16 */}
+      <div
+        className="portfolio-modal modal fade"
+        id="portfolioModal16"
+        tabIndex="-1"
+        role="dialog"
+        aria-hidden="true"
+      >
+        <div className="modal-content">
+          <div className="close-modal" data-dismiss="modal">
+            <div className="lr">
+              <div className="rl"></div>
+            </div>
+          </div>
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-8 col-lg-offset-2">
+                <div className="modal-body">
+                  <h2>Multilane Freeflow</h2>
+                  <p className="item-intro text-muted">value - bath</p>
+                  <img
+                    className="img-responsive-item"
+                    src="/public/images/Project/CCTV Service Area/LINE_ALBUM_SERVICE AREAS Sta.48+000 R M.7_๒๓๐๖๐๖_18.jpg"
+                    alt=""
+                  />
+                  <img
+                    className="img-responsive-item"
+                    src={MultilaneFreeflow}
+                    alt=""
+                  />
+                  <img
+                    className="img-responsive-item"
+                    src={MultilaneFreeflow2}
+                    alt=""
+                  />
+                  <img
+                    className="img-responsive-item"
+                    src={MultilaneFreeflow3}
+                    alt=""
+                  />
+                  <p></p>
+
+                  <button
+                    type="button"
+                    className="btn btn-primary"
+                    data-dismiss="modal"
+                  >
+                    <i className="fa fa-times"></i> Close Project
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Project Modal 17 */}
+      <div
+        className="portfolio-modal modal fade"
+        id="portfolioModal17"
+        tabIndex="-1"
+        role="dialog"
+        aria-hidden="true"
+      >
+        <div className="modal-content">
+          <div className="close-modal" data-dismiss="modal">
+            <div className="lr">
+              <div className="rl"></div>
+            </div>
+          </div>
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-8 col-lg-offset-2">
+                <div className="modal-body">
+                  <h2>Maintenance Motorway 7 & 9</h2>
+                  <p className="item-intro text-muted">
+                    value 140,323,000 bath
+                  </p>
+                  <img
+                    className="img-responsive-item"
+                    src="/public/images/Project/CCTV Service Area/LINE_ALBUM_SERVICE AREAS Sta.48+000 R M.7_๒๓๐๖๐๖_18.jpg"
+                    alt=""
+                  />
+                  <img
+                    className="img-responsive-item"
+                    src={MaintenanceMotorway}
+                    alt=""
+                  />
+                  <img
+                    className="img-responsive-item"
+                    src={MaintenanceMotorway2}
+                    alt=""
+                  />
+                  <img
+                    className="img-responsive-item"
+                    src={MaintenanceMotorway3}
+                    alt=""
+                  />
+                  <img
+                    className="img-responsive-item"
+                    src={MaintenanceMotorway4}
+                    alt=""
+                  />
+                  <img
+                    className="img-responsive-item"
+                    src={MaintenanceMotorway5}
+                    alt=""
+                  />
+                  <img
+                    className="img-responsive-item"
+                    src={MaintenanceMotorway6}
+                    alt=""
+                  />
+                  <img
+                    className="img-responsive-item"
+                    src={MaintenanceMotorway7}
+                    alt=""
+                  />
+                  <p>
+                    Maintenance Work Description The maintenance services cover
+                    both preventive and corrective aspects to ensure that all
+                    systems—including toll collection control systems, traffic
+                    management systems, power systems, and core communication
+                    networks—operate efficiently, reliably, and without
+                    interruption. Preventive maintenance is carried out on a
+                    scheduled basis to minimize the risk of system failures and
+                    to maintain optimal performance. This includes visual
+                    inspections, equipment cleaning, verification of power and
+                    signal connections, functional testing of devices such as
+                    cameras, sensors, card readers, and toll collection units,
+                    as well as checking backup power systems like UPS for
+                    battery health and runtime capacity. Network equipment such
+                    as switches, routers, and media converters are also reviewed
+                    to ensure stable connectivity. If needed, firmware and
+                    software updates are applied in accordance with the
+                    manufacturer’s recommendations. All maintenance activities
+                    are documented in detailed reports that include photographs
+                    and remarks, and are submitted following each maintenance
+                    cycle, typically monthly or quarterly. Corrective
+                    maintenance is performed when faults or malfunctions are
+                    reported, either through direct communication channels or
+                    automated system alerts. The process begins with root cause
+                    analysis through remote diagnosis where possible, followed
+                    by dispatching qualified technicians for on-site
+                    troubleshooting and repair. If any hardware components are
+                    found to be defective, they are replaced to restore full
+                    functionality. After repairs, the system is tested and
+                    verified to ensure that operations return to normal. Each
+                    incident is followed by a report outlining the problem, the
+                    resolution, and recommendations to prevent recurrence. All
+                    maintenance activities are tracked and reviewed by senior
+                    engineers to ensure quality control. In addition, regular
+                    reports are provided summarizing overall system health,
+                    incident statistics, and any risks related to aging or
+                    end-of-life equipment.
+                  </p>
+
+                  <button
+                    type="button"
+                    className="btn btn-primary"
+                    data-dismiss="modal"
+                  >
+                    <i className="fa fa-times"></i> Close Project
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Project Modal 18 */}
+      <div
+        className="portfolio-modal modal fade"
+        id="portfolioModal18"
+        tabIndex="-1"
+        role="dialog"
+        aria-hidden="true"
+      >
+        <div className="modal-content">
+          <div className="close-modal" data-dismiss="modal">
+            <div className="lr">
+              <div className="rl"></div>
+            </div>
+          </div>
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-8 col-lg-offset-2">
+                <div className="modal-body">
+                  <h2>Maintenance Highway Weigh</h2>
+                  <p className="item-intro text-muted">value - bath</p>
+
+                  <img
+                    className="img-responsive-item"
+                    src={MaintenanceHighwayWeighpro}
+                    alt=""
+                  />
+                  <img
+                    className="img-responsive-item"
+                    src={MaintenanceHighwayWeigh1}
+                    alt=""
+                  />
+                  <img
+                    className="img-responsive-item"
+                    src={MaintenanceHighwayWeigh2}
+                    alt=""
+                  />
+                  <img
+                    className="img-responsive-item"
+                    src={MaintenanceHighwayWeigh3}
+                    alt=""
+                  />
+                  <img
+                    className="img-responsive-item"
+                    src={MaintenanceHighwayWeigh4}
+                    alt=""
+                  />
+
+                  <p>
+                    The Highway Weigh Station Maintenance Project is designed to
+                    ensure the continuous functionality and accuracy of systems
+                    used at truck weigh stations. These systems play a critical
+                    role in monitoring and regulating overloaded vehicles on
+                    highways, which directly impacts road safety, infrastructure
+                    durability, and law enforcement efficiency. The project
+                    involves comprehensive maintenance of key components such as
+                    the axle sorting system, which detects and classifies truck
+                    axle configurations; the automatic license plate recognition
+                    (LPR) system for vehicle identification; CCTV systems for
+                    continuous surveillance and evidence collection; and the
+                    data recording and reporting system that logs and generates
+                    weight-related reports. Regular and preventive maintenance
+                    activities are carried out to minimize system downtime,
+                    enhance performance accuracy, and support seamless traffic
+                    and logistics operations. This ensures the weigh station
+                    infrastructure remains reliable, compliant with regulations,
+                    and capable of supporting long-term transportation safety
+                    objectives.
                   </p>
 
                   <button

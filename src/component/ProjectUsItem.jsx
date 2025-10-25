@@ -19,6 +19,9 @@ import MultiLaneFreeFlowSystem from "../assets/images/Project/Multi Lane Free Fl
 import ElectricalOnTheRoad from "../assets/images/Project/Electrical work on the road/1743673364432.jpg";
 import WaterLevelMeasurementSystem from "../assets/images/Project/Water Level Measurement System/1.png";
 import CATTelecomNode from "../assets/images/Project/CAT Telecom Node/1743674577744.jpg";
+import ReplaceElectrical from "../assets/images/Project/Replace Electrical System/pro.jpg";
+import ReplaceElectrical1 from "../assets/images/Project/Replace Electrical System/1.jpg";
+import ReplaceElectrical2 from "../assets/images/Project/Replace Electrical System/2.jpg";
 
 const ProjectUsItem = () => {
   return (
@@ -985,6 +988,79 @@ const ProjectUsItem = () => {
                     reliable communication services, optimized system
                     performance, and safety in critical applications like
                     railway operations.
+                  </p>
+
+                  <button
+                    type="button"
+                    className="btn btn-primary"
+                    data-dismiss="modal"
+                  >
+                    <i className="fa fa-times"></i> Close Project
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Project Modal 16 */}
+      <div
+        className="portfolio-modal modal fade"
+        id="portfolioModal16a"
+        tabIndex="-1"
+        role="dialog"
+        aria-hidden="true"
+      >
+        <div className="modal-content">
+          <div className="close-modal" data-dismiss="modal">
+            <div className="lr">
+              <div className="rl"></div>
+            </div>
+          </div>
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-8 col-lg-offset-2">
+                <div className="modal-body">
+                  <h2>Replace Electrical System</h2>
+                  {/* <p className="item-intro text-muted">value 9,999,999 bath</p> */}
+                  <img
+                    className="img-responsive-item"
+                    src="/public/images/Project/CCTV Service Area/LINE_ALBUM_SERVICE AREAS Sta.48+000 R M.7_๒๓๐๖๐๖_18.jpg"
+                    alt=""
+                  />
+                  <img
+                    className="img-responsive-item"
+                    src={ReplaceElectrical}
+                    alt=""
+                  />
+                  <img
+                    className="img-responsive-item"
+                    src={ReplaceElectrical1}
+                    alt=""
+                  />
+                  <img
+                    className="img-responsive-item"
+                    src={ReplaceElectrical2}
+                    alt=""
+                  />
+                  <p>
+                    The Motorway Toll Plaza Electrical System Upgrade Project is
+                    initiated to enhance the efficiency, safety, and reliability
+                    of the electrical systems serving motorway toll plaza
+                    buildings. The project involves upgrading and replacing
+                    electrical equipment to meet current standards and support
+                    long-term operation, as well as improving backup power
+                    systems such as uninterruptible power supplies (UPS) and
+                    generators to ensure continuous power supply during outages.
+                    It also includes upgrading lighting systems both inside and
+                    outside the buildings to enhance visibility and safety,
+                    along with inspecting and testing the electrical systems to
+                    ensure stability and compliance with engineering standards.
+                    These improvements will ensure high operational readiness of
+                    the toll plaza’s electrical systems, reduce the risk of
+                    malfunctions, and enable uninterrupted, efficient service to
+                    the public.
                   </p>
 
                   <button

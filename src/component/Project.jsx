@@ -20,6 +20,9 @@ import CCBControl from "../assets/images/Project/Project Highlight/CCB Control/p
 import HeightweigeControlCenter from "../assets/images/Project/Project Highlight/Heightweige Control Center/Videowall_181025_0002.jpg";
 import MSLaneControl from "../assets/images/Project/Project Highlight/MS Lane Control/5783891.jpg";
 import Kingpin from "../assets/images/Project/Project Highlight/King Pin Motorway/1.jpg";
+import MultilaneFreeflow from "../assets/images/Project/Project Highlight/Multilane Freeflow/1790337_0.jpg";
+import MaintenanceMotorway from "../assets/images/Project/Project Highlight/Maintenance Motorway 7 & 9/1.jpg";
+import MaintenanceHighwayWeighpro from "../assets/images/Project/Project Highlight/Maintenance Highway Weigh/pro.jpg";
 
 const Project = () => {
   return (
@@ -394,6 +397,74 @@ const Project = () => {
             </a>
             <div className="portfolio-caption">
               <h4>Kingpin</h4>
+              <h6 className="projectbath">value - bath</h6>
+            </div>
+          </div>
+
+          {/* Project Modal 16 */}
+          <div className="col-md-4 col-sm-6 portfolio-item">
+            <a
+              href="#portfolioModal16"
+              className="portfolio-link"
+              data-toggle="modal"
+            >
+              <div className="portfolio-hover">
+                <div className="portfolio-hover-content">
+                  <i className="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img src={MultilaneFreeflow} className="img-responsive" alt="" />
+            </a>
+            <div className="portfolio-caption">
+              <h4>Multilane Freeflow</h4>
+              <h6 className="projectbath">value - bath</h6>
+            </div>
+          </div>
+
+          {/* Project Modal 17 */}
+          <div className="col-md-4 col-sm-6 portfolio-item">
+            <a
+              href="#portfolioModal17"
+              className="portfolio-link"
+              data-toggle="modal"
+            >
+              <div className="portfolio-hover">
+                <div className="portfolio-hover-content">
+                  <i className="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img
+                src={MaintenanceMotorway}
+                className="img-responsive"
+                alt=""
+              />
+            </a>
+            <div className="portfolio-caption">
+              <h4>Maintenance Motorway 7 & 9</h4>
+              <h6 className="projectbath">value 140,323,000 bath</h6>
+            </div>
+          </div>
+
+          {/* Project Modal 18 */}
+          <div className="col-md-4 col-sm-6 portfolio-item">
+            <a
+              href="#portfolioModal18"
+              className="portfolio-link"
+              data-toggle="modal"
+            >
+              <div className="portfolio-hover">
+                <div className="portfolio-hover-content">
+                  <i className="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img
+                src={MaintenanceHighwayWeighpro}
+                className="img-responsive"
+                alt=""
+              />
+            </a>
+            <div className="portfolio-caption">
+              <h4>Maintenance Highway Weigh</h4>
               <h6 className="projectbath">value - bath</h6>
             </div>
           </div>
