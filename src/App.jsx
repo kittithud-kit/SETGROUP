@@ -3,7 +3,7 @@ import "//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js";
 import "//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js";
 
 import "./App.css";
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebook } from "@fortawesome/free-brands-svg-icons";
 import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
@@ -25,10 +25,35 @@ import logo from "/src/assets/images/logo.png";
 import Settech from "/src/assets/images/SETTECH.png";
 import setgroupretail from "/src/assets/images/setgroupretail.png";
 import LogoSam from "/src/assets/images/Logo Sam 1.png";
+import Qeenimg from "/src/assets/images/Qeen-img.png";
 
+const q = sessionStorage.getItem("close"); //qeen
 const App = () => {
+  const [show, setShow] = useState(false);
+  const handleEnter = () => {
+    sessionStorage.setItem("close", true);
+    setShow(false);
+  };
+
+  useEffect(() => {
+    if (q) {
+      setShow(false);
+    } else {
+      setShow(true);
+    }
+    console.log("1111111", q);
+  }, [q]);
   return (
     <div id="page-top" className="index">
+      {/* Wallcame */}
+      {/* <div className={show ? "qeen" : " hidden"}>
+        <div className="qeenbg"></div>
+        <img src={Qeenimg} alt="Welcome" className="qeen-image" />
+        <button className="qeen-button btn" onClick={handleEnter}>
+          เข้าสู่เว็บไซต์
+        </button>
+      </div> */}
+
       <PageNavbar />
       {/* <div
         style={{ position: "relative", height: "100vh", overflow: "hidden" }}

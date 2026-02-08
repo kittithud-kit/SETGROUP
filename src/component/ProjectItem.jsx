@@ -4,6 +4,12 @@ import setlogo from "../assets/images/logo.png";
 import dohlogo from "../assets/images/AboutUs/logo-doh.png";
 
 /* Images */
+import M62 from "../assets/images/Project/Project Highlight/M6/2.jpg";
+import M63 from "../assets/images/Project/Project Highlight/M6/3.jpg";
+import M64 from "../assets/images/Project/Project Highlight/M6/4.jpg";
+import M65 from "../assets/images/Project/Project Highlight/M6/5.jpg";
+import M66 from "../assets/images/Project/Project Highlight/M6/6.jpg";
+
 import Centrallab from "../assets/images/Project/Project Highlight/Central Leb/ความคืบหน้า_๒๑๐๑๐๗_26.jpg";
 import ATMS from "../assets/images/Project/Project Highlight/Pattaya/ATMS/ATMS-FD.png";
 import ATMS2 from "../assets/images/Project/Project Highlight/Pattaya/ATMS/1787407.jpg";
@@ -43,6 +49,86 @@ import MaintenanceHighwayWeigh4 from "../assets/images/Project/Project Highlight
 const ProjectItem = () => {
   return (
     <div>
+      {/* Project Modal 1-1 */}
+      <div
+        className="portfolio-modal modal fade"
+        id="portfolioModal1-1"
+        tabIndex="-1"
+        role="dialog"
+        aria-hidden="true"
+      >
+        <div className="modal-content">
+          <div className="close-modal" data-dismiss="modal">
+            <div className="lr">
+              <div className="rl"></div>
+            </div>
+          </div>
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-8 col-lg-offset-2">
+                <div className="modal-body">
+                  {/* <img className="projectlogo" src={dohlogo}></img> */}
+                  <h2>TM & ECS Installation – M9–M6</h2>
+                  <p className="item-intro text-muted">
+                    value 189,000,000 bath
+                  </p>
+                  <img className="img-responsive-item" src={M62} alt="" />
+                  <img className="img-responsive-item" src={M63} alt="" />
+                  <img className="img-responsive-item" src={M64} alt="" />
+                  <img className="img-responsive-item" src={M65} alt="" />
+                  <img className="img-responsive-item" src={M66} alt="" />
+
+                  <p>
+                    Traffic Management and Electrical Communication Systems
+                    Installation at the Interconnection of Motorway No. 9 and
+                    Motorway No. 6 This project covers the installation,
+                    testing, and commissioning of traffic management and
+                    electrical communication systems at the interconnection area
+                    between Motorway No. 9 and Motorway No. 6. The development
+                    is intended to strengthen operational efficiency, improve
+                    road user safety, and enable reliable real-time monitoring
+                    and communication across the motorway network. The scope of
+                    work includes the provision of an Emergency Telephone System
+                    to allow motorists to quickly request assistance in case of
+                    accidents, vehicle breakdowns, or other incidents.
+                    Communication infrastructure is supported through pole
+                    installation and extensive fiber optic cable deployment,
+                    forming a high-capacity backbone for data transmission
+                    between field equipment and the control center. CCTV cameras
+                    are installed at strategic locations to provide continuous
+                    traffic surveillance, incident detection, and verification.
+                    These cameras support traffic operators in making rapid and
+                    informed decisions, minimizing response time, and improving
+                    overall traffic flow. Travel Time Information Signs are
+                    implemented to inform drivers of estimated journey times,
+                    enabling better route planning and reducing congestion. In
+                    addition, Matrix Signs, which are digital and programmable
+                    displays, are installed to communicate real-time traffic
+                    conditions, warnings, speed control measures, and lane
+                    management instructions. These signs are essential tools for
+                    active traffic management and emergency situations. All
+                    systems are designed to operate in an integrated
+                    environment, ensuring compatibility, reliability, and future
+                    expandability. The project plays a vital role in elevating
+                    the motorway infrastructure to modern intelligent
+                    transportation system standards while delivering safer and
+                    more convenient travel for the public.
+                  </p>
+
+                  <button
+                    type="button"
+                    className="btn btn-primary"
+                    data-dismiss="modal"
+                  >
+                    <i className="fa fa-times"></i> Close Project
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       {/* Project Modal 1 */}
       <div
         className="portfolio-modal modal fade"

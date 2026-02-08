@@ -14,6 +14,41 @@ body {
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+/* RIP */
+/* html {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+} */
+
+.qeen-image {
+  z-index: 10;
+  width: 80vw;
+}
+
+.qeenbg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: black;
+  opacity: 85%;
+}
+
+.qeen-button {
+  z-index: 10;
+}
+
+.qeen {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: 1031;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
 #flip {
   display: block;
   height: 80px;

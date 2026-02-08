@@ -1,6 +1,7 @@
 import React from "react";
 import "./Project.css";
 /* Images */
+import M6 from "../assets/images/Project/Project Highlight/M6/1.jpg";
 import Centrallab from "../assets/images/Project/Project Highlight/Central Leb/ความคืบหน้า_๒๑๐๑๐๗_26.jpg";
 import ATMS from "../assets/images/Project/Project Highlight/Pattaya/ATMS/ATMS-FD.png";
 import TOLL from "../assets/images/Project/Project Highlight/Thanya/1.jpg";
@@ -37,6 +38,46 @@ const Project = () => {
           </div>
         </div>
         <div className="row">
+          {/* Project Modal 1-1 */}
+          <div className="col-md-4 col-sm-6 portfolio-item">
+            <a
+              href="#portfolioModal1-1"
+              className="portfolio-link"
+              data-toggle="modal"
+            >
+              <div className="portfolio-hover">
+                <div className="portfolio-hover-content">
+                  <i className="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img src={M6} className="img-responsive" alt="" />
+            </a>
+            <div className="portfolio-caption">
+              <h4>TM & ECS Installation – M9–M6</h4>
+              <h6 className="projectbath">value 189,000,000 bath</h6>
+            </div>
+          </div>
+
+          {/* Project Modal 1-2 */}
+          {/* <div className="col-md-4 col-sm-6 portfolio-item">
+            <a
+              href="#portfolioModal1-2"
+              className="portfolio-link"
+              data-toggle="modal"
+            >
+              <div className="portfolio-hover">
+                <div className="portfolio-hover-content">
+                  <i className="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img src={M6} className="img-responsive" alt="" />
+            </a>
+            <div className="portfolio-caption">
+              <h4>ETS System Replacement – M7 & M9</h4>
+              <h6 className="projectbath">value 44,776,000 bath</h6>
+            </div>
+          </div> */}
+
           {/* Project Modal 1 */}
           <div className="col-md-4 col-sm-6 portfolio-item">
             <a
